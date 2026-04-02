@@ -509,7 +509,16 @@ footer span {
     padding-left: 28px;
     padding-right: 28px;
   }
-  .hero-photo-wrap { display: none; }
+  .hero-photo-wrap {
+    flex: none;
+    width: 60%;
+    max-width: 220px;
+    align-self: center;
+    margin-top: 32px;
+  }
+  .hero-photo {
+    max-height: 260px;
+  }
   .work-info, .interlude, #about, footer {
     padding-left: 28px;
     padding-right: 28px;

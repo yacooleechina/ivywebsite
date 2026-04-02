@@ -77,12 +77,9 @@
 
     // Interlude
     const interlude = document.querySelector('.interlude-text');
-    const quote = featured[1];
-    if (quote) {
-      interlude.innerHTML =
-        `<span class="en">${quote.statement}</span>` +
-        `<span class="zh">${quote.statementZh}</span>`;
-    }
+    interlude.innerHTML =
+      `<span class="en">${d.artist.tagline}</span>` +
+      `<span class="zh">${d.artist.taglineZh}</span>`;
 
     // About
     document.querySelector('.about-statement').innerHTML =
