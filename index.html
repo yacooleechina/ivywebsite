@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Li Weiyi · 李惟祎</title>
+  <meta name="description" content="Li Weiyi — Artist working across painting, drawing, sculpture and installation. Beijing, b. 2008.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-aura"></div>
+
+  <!-- Language toggle -->
+  <button id="lang-toggle" aria-label="Switch language">中文</button>
+
+  <!-- Side navigation dots -->
+  <nav id="sidenav" aria-label="Section navigation"></nav>
+
+  <!-- ═══ HERO ═══════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-content">
+      <span class="hero-eyebrow"></span>
+      <h1 class="hero-name"></h1>
+      <p class="hero-tagline"></p>
+    </div>
+    <div class="hero-photo-wrap">
+      <img id="hero-photo" class="hero-photo" alt="Li Weiyi 李惟祎"
+           onerror="this.parentElement.style.opacity='0'">
+    </div>
+    <p class="hero-scroll">
+      <span class="en">Scroll</span>
+      <span class="zh">向下</span>
+    </p>
+  </section>
+
+  <!-- ═══ WORKS (rendered by JS from data/works.js) ══════════════ -->
+  <div id="works-container"></div>
+
+  <!-- ═══ INTERLUDE ══════════════════════════════════════════════ -->
+  <div class="interlude">
+    <p class="interlude-text"></p>
+  </div>
+
+  <!-- ═══ ABOUT ══════════════════════════════════════════════════ -->
+  <section id="about">
+    <p class="about-label reveal">
+      <span class="en">About</span>
+      <span class="zh">关于</span>
+    </p>
+    <div class="reveal">
+      <p class="about-statement"></p>
+      <div class="about-meta"></div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═════════════════════════════════════════════════ -->
+  <footer>
+    <span class="footer-name"></span>
+    <span class="footer-year"></span>
+  </footer>
+
+  <!-- Data config (edit this file to add/update works) -->
+  <script src="data/works.js"></script>
+  <!-- Main script -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
