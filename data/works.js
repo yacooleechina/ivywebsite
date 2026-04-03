@@ -228,7 +228,6 @@ const SITE_DATA = {
       mediumZh:   "纸本炭笔",
       heroImage:  "images/works/studio24-01.jpg",
       images: [
-        "images/works/studio24-01.jpg",
         "images/works/studio24-02.jpg",
       ],
       statement:   "",
@@ -251,7 +250,7 @@ const SITE_DATA = {
       mediumZh:   "纸本水墨",
       heroImage:  "images/works/studio24-03.jpg",
       images: [
-        "images/works/studio24-03.jpg",
+       
         "images/works/studio24-04.jpg",
       ],
       statement:   "",
@@ -274,11 +273,11 @@ const SITE_DATA = {
       mediumZh:   "纸本水粉",
       heroImage:  "images/works/studio24-05.jpg",
       images: [
-        "images/works/studio24-05.jpg",
+        
         "images/works/studio24-06.jpg",
         "images/works/studio24-07.jpg",
         "images/works/studio24-08.jpg",
-        "images/works/studio24-16.jpg",
+        
       ],
       statement:   "",
       statementZh: "",
@@ -302,6 +301,7 @@ const SITE_DATA = {
       images: [
         "images/works/studio24-09.jpg",
         "images/works/studio24-10.jpg",
+        "images/works/studio24-16.jpg",
       ],
       statement:   "",
       statementZh: "",
