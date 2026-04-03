@@ -95,10 +95,11 @@
 
     const galleryHtml = buildGallery(work);
 
+    const fmt = s => s.replace(/\n\n/g, '<br><br>');
     const statementHtml = work.statement
       ? `<blockquote class="wd-statement">
-          <span class="en">${work.statement}</span>
-          <span class="zh">${work.statementZh}</span>
+          <span class="en">${fmt(work.statement)}</span>
+          <span class="zh">${fmt(work.statementZh || '')}</span>
         </blockquote>`
       : '';
 

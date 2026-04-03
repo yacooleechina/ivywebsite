@@ -84,10 +84,9 @@ const SITE_DATA = {
       // ⚠️ 将图片放入 images/works/ 目录后修改路径
       heroImage:  "images/works/watching-r-01.jpg",
       images: [
-        "images/works/watching-r-01.jpg",
-        "images/works/watching-r-02.jpg",
         "images/works/watching-r-03.jpg",
         "images/works/watching-r-04.jpg",
+        "images/works/watching-r-01.jpg",      
       ],
 
       statement:   "I transform a classroom observation drawing into a psychological space. Starting from a realistic scene—myself working while the teacher stands nearby—I repaint, cover, and reorganize the image to show what I felt rather than what I saw: pressure, surveillance, and the constant need to “perform” under someone’s gaze. Layers of marks and partially erased forms create a sense of resistance, as if my thoughts are trying to break through the original picture. By shifting from documentation to distortion, I turn an ordinary classroom moment into a portrait of discipline, anxiety, and my attempt to reclaim control of how I am seen.",          // 待填写
@@ -129,18 +128,19 @@ const SITE_DATA = {
       category:   "Sculpture Installation",
       categoryZh: "雕塑装置",
       series:     "AW2",
-      medium:     "Clay · Mixed media · Red velvet · Dental reference",
-      mediumZh:   "粘土 · 混合媒介 · 红色天鹅绒 · 牙科参考物",
+      medium:     "Clay · Mixed media · Red velvet",
+      mediumZh:   "粘土 · 混合媒介 · 红色天鹅绒",
 
       heroImage:  "images/works/trapped-01.jpg",
       images: [
         "images/works/trapped-01.jpg",
         "images/works/trapped-02.jpg",
         "images/works/trapped-03.jpg",
+        "images/works/trapped-04.jpg",
       ],
 
-      statement:   "The work begins with a physical memory: learning to hide a smile because of crooked teeth. What if the teeth themselves were inhabitants — each one a friend who accepts you?",
-      statementZh: "作品的起点是一段身体记忆：因龅牙学会封锁笑容。如果牙齿本身是居民，每一颗都是一位接受你的朋友，那会怎样？",
+      statement:   "This work comes from my experience of dental deformity, which once made me afraid to laugh out loud. As a child, I was mocked for my crooked teeth, and I learned to hide them.\n\nThe sculpture takes the shape of a mouth, with distorted faces crowded inside. Viewers can clearly see each of my irregular, misshapen teeth, confronting the source of my anxiety directly. Each face represents a different gaze, together forming the pressure of appearance anxiety.\n\nAs I have grown, however, I have begun to make peace with my teeth. Through this work, I reimagine them as a group of playful spirits, each with its own character. Their shapes are inspired by my close friends—people who accept me without ridicule and remind me that flaws can carry warmth, humor, and even joy.",
+      statementZh: "这件作品源于我对牙齿问题的亲身体验——它曾让我不敢放声大笑。小时候，我因为歪斜的牙齿被嘲笑，学会了刻意掩藏它们。\n\n雕塑以口腔的形状呈现，内部挤满了变形的面孔。观者可以清楚地看到我每一颗不规则、形状各异的牙齿，直面我焦虑的根源。每张面孔代表一种不同的凝视，共同构成外貌焦虑的压力。\n\n然而，随着成长，我开始与自己的牙齿和解。通过这件作品，我将它们重新想象为一群顽皮的精灵，各自拥有独特的性格。它们的形态灵感来自我亲近的朋友——那些不加嘲笑地接纳我的人，他们提醒我，缺陷也可以蕴含温暖、幽默，乃至欢乐。",
 
       featured: true,
     },
