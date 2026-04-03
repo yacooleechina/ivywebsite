@@ -131,10 +131,9 @@ const SITE_DATA = {
       medium:     "Clay · Mixed media · Red velvet",
       mediumZh:   "粘土 · 混合媒介 · 红色天鹅绒",
 
-      heroImage:  "images/works/trapped-01.jpg",
+      heroImage:  "images/works/trapped-02.jpg",
       images: [
         "images/works/trapped-01.jpg",
-        "images/works/trapped-02.jpg",
         "images/works/trapped-03.jpg",
         "images/works/trapped-04.jpg",
       ],
@@ -153,14 +152,15 @@ const SITE_DATA = {
       category:   "Painting Installation",
       categoryZh: "绘画装置",
       series:     "AW1",
-      medium:     "Acrylic on canvas · Multiple panels · 3D elements",
-      mediumZh:   "丙烯 · 多联画 · 三维元素",
+      medium:     "Acrylic on canvas · Multiple panels",
+      mediumZh:   "布面丙烯 · 多联",
 
       heroImage:  "images/works/home-01.jpg",
       images: [
         "images/works/home-01.jpg",
         "images/works/home-02.jpg",
         "images/works/home-03.jpg",
+        "images/works/home-04.jpg",
       ],
 
       statement:   "Home is not a painting. Home is everything that continues beyond the frame.",
