@@ -91,8 +91,8 @@ const SITE_DATA = {
 
     {
       id:         "memory",
-      title:      "记忆",
-      titleZh:    "Memory",
+      title:      "Memory",
+      titleZh:    "记忆",
       year:       2025,
       category:   "Relief Sculpture",
       categoryZh: "浮雕",
