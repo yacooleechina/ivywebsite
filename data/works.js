@@ -55,6 +55,7 @@ const SITE_DATA = {
       heroImage:  "images/works/watching-01.jpg",
       images: [
         "images/works/watching-01.jpg",
+        "images/works/watching-02.jpg",
       ],
 
       statement:   "A corner of the art studio.I was drawing a self-portrait in front of the mirror,with my tutor standing against the wall",          // 待填写
@@ -77,14 +78,20 @@ const SITE_DATA = {
       medium:     "charcoal and gesso on paper",           // 待填写
       mediumZh:   "木炭、石膏底料，纸本",           // 待填写
 
+      size:"2.5m * 3m",
+      sizeZh:"2.5米 * 3米",
+
       // ⚠️ 将图片放入 images/works/ 目录后修改路径
       heroImage:  "images/works/watching-r-01.jpg",
       images: [
         "images/works/watching-r-01.jpg",
+        "images/works/watching-r-02.jpg",
+        "images/works/watching-r-03.jpg",
+        "images/works/watching-r-04.jpg",
       ],
 
       statement:   "I transform a classroom observation drawing into a psychological space. Starting from a realistic scene—myself working while the teacher stands nearby—I repaint, cover, and reorganize the image to show what I felt rather than what I saw: pressure, surveillance, and the constant need to “perform” under someone’s gaze. Layers of marks and partially erased forms create a sense of resistance, as if my thoughts are trying to break through the original picture. By shifting from documentation to distortion, I turn an ordinary classroom moment into a portrait of discipline, anxiety, and my attempt to reclaim control of how I am seen.",          // 待填写
-      statementZh: "我将一张关于教室场景的观察绘画转化为一个心理空间。作品从写实场景出发——我在其中学习，老师站在一旁——但我通过重绘、覆盖与重组图像，去表现我所感受到的，而非我所看到的：压力、被监视感，以及在他人目光下不断“表演”的需求。层层叠加的痕迹与被部分擦除的形体制造出一种抵抗感，仿佛我的思想正试图冲破原有画面。通过从记录转向扭曲，我将一个普通的课堂瞬间转化为关于规训、焦虑，以及我试图重新夺回自我观看权的一次表达。",          // 待填写
+      statementZh: "我将一张关于画室场景的观察绘画转化为一个心理空间。作品从写实场景出发，但我通过重绘、覆盖与重组，表达我所感受到的被监视感，以及在他人目光下的压力。我通过层层叠加的痕迹与被部分擦除的形体制造出一种抵抗感，仿佛我的思想正试图冲破原有画面。通过从写实到抽象，我将一个普通的课堂瞬间转化为关于规训、焦虑，以及我试图重新夺回自我观看权的一次表达。",          // 待填写
 
       featured: true,
     },
@@ -97,13 +104,14 @@ const SITE_DATA = {
       category:   "Relief Sculpture",
       categoryZh: "浮雕",
       series:     "RISD Pre-College",
-      medium:     "superlight clay，Aluminum foil,white latex adhesive ,acrylic paint and gesso on canvas s",
+      medium:     "Superlight clay，Aluminum foil,white latex adhesive ,acrylic paint and gesso on canvas s",
       mediumZh:   "超轻粘土，铝箔，白色乳胶胶粘剂，丙烯漆和石膏帆布",
 
       heroImage:  "images/works/relief-01.jpg",
       images: [
-        "images/works/relief-01.jpg",
         "images/works/relief-02.jpg",
+        "images/works/relief-03.jpg", 
+        "images/works/relief-04.jpg",
       ],
 
       statementZh:   "目光无处不在。即使在独处时，它们仍然跟随着你——注视、衡量、评判。它们不仅来自身边的人，也来自社交媒体、广告，甚至来自内心不断自我审视的声音。",
@@ -201,7 +209,11 @@ const SITE_DATA = {
       statement:   "A private moment, unbeautified. The smart watch says: this is now, not some romanticised past.",
       statementZh: "一个私密的瞬间，未经美化。智能手表说：这是现在，不是某个浪漫化的过去。",
 
-      featured: false,  // 不在首页主列表显示，仍可访问
+      featured: false,
+      archived: true,
+      collection: "Early Works",
+      collectionZh: "早期作品",
+      era: "2025",
     },
 
   ],

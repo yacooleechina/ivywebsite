@@ -11,6 +11,72 @@
   const work   = SITE_DATA.works.find(w => w.id === id);
 
 
+  // ── Gallery layout builder ────────────────────────────────────
+  function buildGallery(work) {
+    const imgs = work.images;
+    const n = imgs.length;
+    if (n <= 1) return '';
+
+    // 2–3 images: grid layout, full natural dimensions, no crop
+    if (n <= 3) {
+      const layoutClass = n === 2 ? 'wd-gallery--2' : 'wd-gallery--3';
+      const figures = imgs.map((img, i) =>
+        `<figure class="wd-fig wd-fig--${i}">
+          <img src="${img}" alt="${work.title} — ${i + 1}" loading="lazy">
+        </figure>`
+      ).join('');
+      return `<div class="wd-gallery ${layoutClass} reveal">${figures}</div>`;
+    }
+
+    // 4+ images: paginator (one at a time, full size)
+    const slides = imgs.map((img, i) =>
+      `<figure class="wd-pager-slide${i === 0 ? ' active' : ''}">
+        <img src="${img}" alt="${work.title} — ${i + 1}" loading="lazy">
+      </figure>`
+    ).join('');
+
+    return `<div class="wd-gallery-pager reveal">
+      <div class="wd-pager-slides">${slides}</div>
+      <div class="wd-pager-controls">
+        <button class="wd-pager-btn wd-pager-prev" disabled>
+          <span class="en">← Prev</span>
+          <span class="zh">← 上一张</span>
+        </button>
+        <span class="wd-pager-count">1 / ${n}</span>
+        <button class="wd-pager-btn wd-pager-next">
+          <span class="en">Next →</span>
+          <span class="zh">下一张 →</span>
+        </button>
+      </div>
+    </div>`;
+  }
+
+
+  // ── Paginator controls ────────────────────────────────────────
+  function initPager() {
+    document.querySelectorAll('.wd-gallery-pager').forEach(pager => {
+      const slides  = pager.querySelectorAll('.wd-pager-slide');
+      const prevBtn = pager.querySelector('.wd-pager-prev');
+      const nextBtn = pager.querySelector('.wd-pager-next');
+      const countEl = pager.querySelector('.wd-pager-count');
+      const total   = slides.length;
+      let current   = 0;
+
+      function show(n) {
+        slides[current].classList.remove('active');
+        current = n;
+        slides[current].classList.add('active');
+        countEl.textContent = `${current + 1} / ${total}`;
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current === total - 1;
+      }
+
+      prevBtn.addEventListener('click', () => show(current - 1));
+      nextBtn.addEventListener('click', () => show(current + 1));
+    });
+  }
+
+
   // ── Render detail ─────────────────────────────────────────────
   function render() {
     const detail = document.getElementById('work-detail');
@@ -27,15 +93,7 @@
 
     document.title = `${work.title} · Li Weiyi`;
 
-    const galleryHtml = work.images.length > 1
-      ? `<div class="wd-gallery reveal">
-          ${work.images.map((img, i) => `
-            <figure class="wd-fig">
-              <img src="${img}" alt="${work.title} — ${i + 1}" loading="lazy">
-            </figure>`
-          ).join('')}
-        </div>`
-      : '';
+    const galleryHtml = buildGallery(work);
 
     const statementHtml = work.statement
       ? `<blockquote class="wd-statement">
@@ -126,6 +184,7 @@
   // ── Init ──────────────────────────────────────────────────────
   document.addEventListener('DOMContentLoaded', () => {
     render();
+    initPager();
     initCursor();
     initLang();
     initReveal();
