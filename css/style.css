@@ -74,9 +74,6 @@ body:has(button:hover) #cursor-dot { width: 8px; height: 8px; }
 
 /* ── Language toggle ──────────────────────────────────────────── */
 #lang-toggle {
-  position: fixed;
-  top: 28px; right: 48px;
-  z-index: 600;
   font-size: 10px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -86,6 +83,7 @@ body:has(button:hover) #cursor-dot { width: 8px; height: 8px; }
   cursor: none;
   padding: 4px 0;
   transition: color .3s;
+  flex-shrink: 0;
 }
 #lang-toggle:hover { color: var(--text); }
 
@@ -516,7 +514,6 @@ footer span {
   color: var(--muted); text-decoration: none;
 }
 .site-nav-link:hover, .site-nav-link.active { color: var(--text); }
-.site-nav #lang-toggle { position: static; top: auto; right: auto; }
 
 /* ── Archive page ─────────────────────────────────────────────── */
 .arc-header {
@@ -658,7 +655,6 @@ footer span {
   }
   .hero-scroll { left: 28px; }
   #sidenav { display: none; }
-  #lang-toggle { right: 28px; top: 20px; }
   #about { grid-template-columns: 1fr; gap: 36px; }
   .work-info { padding-bottom: 52px; }
   .wd-header { padding: 20px 28px; }
