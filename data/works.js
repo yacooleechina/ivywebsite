@@ -178,12 +178,15 @@ const SITE_DATA = {
       series:     "SFK",
     
 
-      heroImage:   "images/works/drawing-01.jpg",
-      homeBgSize:  "80%",
+      heroImage:      "images/works/drawing-01.jpg",
+      homeBgSize:     "80%",
+      detailHeroSize: "80%",
       images: [
         "images/works/drawing-01.jpg",
         "images/works/drawing-02.jpg",
         "images/works/drawing-03.jpg",
+        "images/works/drawing-portrait.jpg",
+        "images/works/drawing-food.jpg",
       ],
 
       statement:   "These observational drawings mainly reflect the development and display of Weiyi Li’s recent painting skills. Their central theme is the relationship between observing and being observed: the most honest act of observation is to acknowledge that looking changes the object being looked at. Two people observe each other, forming a closed loop with no outside.",

@@ -117,7 +117,7 @@
 
     detail.innerHTML = `
       <div class="wd-hero reveal">
-        <img class="wd-hero-img" src="${work.heroImage}" alt="${work.title}">
+        <img class="wd-hero-img" src="${work.heroImage}" alt="${work.title}"${work.detailHeroSize ? ` style="width:${work.detailHeroSize};margin:0 auto;"` : ''}>
       </div>
       <div class="wd-body">
         <div class="wd-info reveal">
