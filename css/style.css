@@ -565,6 +565,13 @@ footer span {
   font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
   color: var(--dim);
 }
+.arc-collection-desc {
+  font-size: clamp(13px, 1.2vw, 15px);
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 640px;
+  margin: -24px 0 40px;
+}
 .arc-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

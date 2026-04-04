@@ -15,6 +15,8 @@
         groups[key] = {
           name: w.collection || 'Other',
           nameZh: w.collectionZh || w.collection || 'Other',
+          desc: w.collectionDesc || '',
+          descZh: w.collectionDescZh || '',
           era: w.era || '',
           works: [],
         };
@@ -27,10 +29,10 @@
     });
     // Sort collections in specified order
     const ORDER = [
-      'Early Works',
-      'Summer 2024 · Li Jing Studio',
-      'RISD Summer School 2024',
-      'UAL Summer School 2023',
+      'Before This Portfolio',
+      'Studio Practice · Summer 2024',
+      'RISD Summer Program · 2024',
+      'UAL Summer Program · 2023',
     ];
     return Object.values(groups).sort((a, b) => {
       const ia = ORDER.indexOf(a.name);
@@ -87,6 +89,10 @@
           </h2>
           ${g.era ? `<span class="arc-collection-era">${g.era}</span>` : ''}
         </div>
+        ${g.desc ? `<p class="arc-collection-desc">
+          <span class="en">${g.desc}</span>
+          <span class="zh">${g.descZh}</span>
+        </p>` : ''}
         <div class="arc-grid">
           ${g.works.map(renderCard).join('')}
         </div>
