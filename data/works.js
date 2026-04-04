@@ -58,7 +58,7 @@ const SITE_DATA = {
         "images/works/watching-02.jpg",
       ],
 
-      statement:   "A corner of the art studio.I was drawing a self-portrait in front of the mirror,with my tutor standing against the wall",          // 待填写
+      statement:   "A corner of the art studio—I was drawing a self-portrait in front of the mirror, with my tutor standing against the wall.",
       statementZh: "画室一角，我在镜子前画自画像，导师站在墙边",          // 待填写
 
       size:"1.5m * 2m",
@@ -75,7 +75,7 @@ const SITE_DATA = {
       category:   "Painting",           // 待填写，如 Installation / Painting 等
       categoryZh: "绘画",           // 待填写
       series:     "Who Is Watching Me？",
-      medium:     "charcoal and gesso on paper",           // 待填写
+      medium:     "Charcoal and gesso on paper",
       mediumZh:   "木炭、石膏底料，纸本",           // 待填写
 
       size:"2.5m * 3m",
@@ -89,8 +89,8 @@ const SITE_DATA = {
         "images/works/watching-r-01.jpg",      
       ],
 
-      statement:   "I transform a classroom observation drawing into a psychological space. Starting from a realistic scene—myself working while the teacher stands nearby—I repaint, cover, and reorganize the image to show what I felt rather than what I saw: pressure, surveillance, and the constant need to “perform” under someone’s gaze. Layers of marks and partially erased forms create a sense of resistance, as if my thoughts are trying to break through the original picture. By shifting from documentation to distortion, I turn an ordinary classroom moment into a portrait of discipline, anxiety, and my attempt to reclaim control of how I am seen.",          // 待填写
-      statementZh: "我将一张关于画室场景的观察绘画转化为一个心理空间。作品从写实场景出发，但我通过重绘、覆盖与重组，表达我所感受到的被监视感，以及在他人目光下的压力。我通过层层叠加的痕迹与被部分擦除的形体制造出一种抵抗感，仿佛我的思想正试图冲破原有画面。通过从写实到抽象，我将一个普通的课堂瞬间转化为关于规训、焦虑，以及我试图重新夺回自我观看权的一次表达。",          // 待填写
+      statement:   “Starting from a classroom drawing—myself working while the teacher stands nearby—I repaint, cover, and distort the image until it shows not what I saw but what I felt: pressure, surveillance, and the need to perform under someone’s gaze.”,
+      statementZh: “从一张课堂写生出发，通过重绘、覆盖与重组，作品变成了一个心理空间——它记录的不是我看见了什么，而是我感受到的：被监视的压力，以及在他人目光下需要”表演”的焦虑。”,
 
       featured: true,
     },
@@ -103,7 +103,7 @@ const SITE_DATA = {
       category:   "Relief Sculpture",
       categoryZh: "浮雕",
       series:     "RISD Pre-College",
-      medium:     "Superlight clay，Aluminum foil,white latex adhesive ,acrylic paint and gesso on canvas s",
+      medium:     "Superlight clay, aluminum foil, white latex, acrylic and gesso on canvas",
       mediumZh:   "超轻粘土，铝箔，白色乳胶胶粘剂，丙烯漆和石膏帆布",
 
       heroImage:      "images/works/relief-01.jpg",
@@ -115,8 +115,8 @@ const SITE_DATA = {
         "images/works/relief-04.jpg",
       ],
 
-      statementZh:   "目光无处不在。即使在独处时，它们仍然跟随着你——注视、衡量、评判。它们不仅来自身边的人，也来自社交媒体、广告，甚至来自内心不断自我审视的声音。",
-      statement: "Eyes are everywhere. They follow you even in solitude—watching, measuring, judging. They are not only the eyes of people around you, but also the invisible gaze of social media, advertisements, and even the critical voice within your own mind.",
+      statementZh:   "目光无处不在——即使独处也跟随着你，注视、衡量、评判——不仅来自身边的人，也来自社交媒体、广告，乃至内心不断自我审视的声音。",
+      statement: "Eyes are everywhere—following you even in solitude, watching, measuring, judging—not only from the people around you, but also from social media, advertising, and the critical voice within your own mind.",
 
 
       featured: true,
@@ -130,8 +130,8 @@ const SITE_DATA = {
       category:   "Sculpture Installation",
       categoryZh: "雕塑装置",
       series:     "AW2",
-      medium:     "Clay · Mixed media · Red velvet",
-      mediumZh:   "粘土 · 混合媒介 · 红色天鹅绒",
+      medium:     "Clay, mixed media, red velvet",
+      mediumZh:   "粘土，混合媒介，红色天鹅绒",
 
       heroImage:  "images/works/trapped-02.jpg",
       images: [
@@ -140,8 +140,8 @@ const SITE_DATA = {
         "images/works/trapped-04.jpg",
       ],
 
-      statement:   "This work comes from my experience of dental deformity, which once made me afraid to laugh out loud. As a child, I was mocked for my crooked teeth, and I learned to hide them.\n\nThe sculpture takes the shape of a mouth, with distorted faces crowded inside. Viewers can clearly see each of my irregular, misshapen teeth, confronting the source of my anxiety directly. Each face represents a different gaze, together forming the pressure of appearance anxiety.\n\nAs I have grown, however, I have begun to make peace with my teeth. Through this work, I reimagine them as a group of playful spirits, each with its own character. Their shapes are inspired by my close friends—people who accept me without ridicule and remind me that flaws can carry warmth, humor, and even joy.",
-      statementZh: "这件作品源于我对牙齿问题的亲身体验——它曾让我不敢放声大笑。小时候，我因为歪斜的牙齿被嘲笑，学会了刻意掩藏它们。\n\n雕塑以口腔的形状呈现，内部挤满了变形的面孔。观者可以清楚地看到我每一颗不规则、形状各异的牙齿，直面我焦虑的根源。每张面孔代表一种不同的凝视，共同构成外貌焦虑的压力。\n\n然而，随着成长，我开始与自己的牙齿和解。通过这件作品，我将它们重新想象为一群顽皮的精灵，各自拥有独特的性格。它们的形态灵感来自我亲近的朋友——那些不加嘲笑地接纳我的人，他们提醒我，缺陷也可以蕴含温暖、幽默，乃至欢乐。",
+      statement:   "Growing up with crooked teeth that I learned to hide, I made this sculpture as an act of reclamation—reimagining each tooth as a playful spirit with its own character, inspired by the friends who taught me that flaws can carry warmth.",
+      statementZh: "因歪斜的牙齿，我从小学会了掩藏笑容；这件作品是一次重新夺回——将每一颗牙齿想象为有个性的精灵，它们的形态来自那些接纳我的朋友，提醒我缺陷也可以蕴含温暖。",
 
       featured: true,
     },
@@ -154,8 +154,8 @@ const SITE_DATA = {
       category:   "Painting Installation",
       categoryZh: "绘画装置",
       series:     "AW1",
-      medium:     "Acrylic on canvas · Multiple panels",
-      mediumZh:   "布面丙烯 · 多联",
+      medium:     "Acrylic on canvas, multiple panels",
+      mediumZh:   "布面丙烯，多联",
 
       heroImage:  "images/works/home-01.jpg",
       images: [
@@ -164,8 +164,8 @@ const SITE_DATA = {
         "images/works/home-04.jpg",
       ],
 
-      statement:   "This work explores the emotional parallel between a girl and her dog at home. As an only child, I often felt home as both intimate and marked by absence. The dog waiting alone became a reflection of my own emotional state. Through painting and installation, I transform this domestic scene into a portrait of companionship, projection, waiting, and quiet loneliness.",
-      statementZh: "这件作品关注一个女孩与一只狗在家中的情感对应。作为独生子女，我常常感到家既亲密，又带有缺席感。那只独自在家等待的狗，成为我自身情感状态的映照。通过绘画与装置，我将这一家庭场景转化为关于陪伴、投射、等待与安静孤独的表达。",
+      statement:   "Through painting and installation, I trace the quiet parallel between a girl and her dog at home—both waiting, both reflecting what it means to be present in a space marked by absence.",
+      statementZh: "通过绘画与装置，我描绘一个女孩与她的狗在家中的情感对应——两者都在等待，都映照出那种既亲密、又带着缺席感的家的状态。",
 
       featured: true,
     },
@@ -178,7 +178,8 @@ const SITE_DATA = {
       category:   "Large-Scale Drawing",
       categoryZh: "大尺幅素描、丙烯",
       series:     "SFK",
-    
+      medium:     "Charcoal and acrylic on paper",
+      mediumZh:   "纸本炭笔、丙烯",
 
       heroImage:      "images/works/drawing-01.jpg",
       homeBgSize:     "80%",
@@ -190,8 +191,8 @@ const SITE_DATA = {
         "images/works/drawing-food.jpg",
       ],
 
-      statement:   "These observational drawings mainly reflect the development and display of Weiyi Li’s recent painting skills. Their central theme is the relationship between observing and being observed: the most honest act of observation is to acknowledge that looking changes the object being looked at. Two people observe each other, forming a closed loop with no outside.",
-      statementZh: "观察绘画主要是李惟祎近期绘画技术能力的积累与展示。它们的主题是观察与被观察之间的关系：最诚实的观察行为是承认观看改变了被观看的对象。两个人相互观看——一个没有外部的闭环。",
+      statement:   "The most honest act of observation is to acknowledge that looking changes what is being looked at—two people watching each other form a closed loop with no outside.",
+      statementZh: "最诚实的观察，是承认看本身改变了被看的对象——两人相互凝视，构成一个没有外部的闭环。",
 
       featured: true,
     },
@@ -201,7 +202,7 @@ const SITE_DATA = {
       title:      "Sagittarius",
       titleZh:    "射手座",
       year:       2024,
-      category:   "digital illustration",
+      category:   "Digital illustration",
       categoryZh: "数字插画",
       series:     "",
       medium:     "Digital Illustration",
@@ -245,8 +246,8 @@ const SITE_DATA = {
         "images/works/risd24-sphere-07.jpg",
         "images/works/risd24-sphere-08.jpg",
       ],
-      statement:   "A series exploring the same form—a hand gripping a sphere—rendered with different surface textures and materials. Each variation transforms the mood and meaning of the grip.",
-      statementZh: "同一个动作——手握球体——以不同材质与表面反复呈现。每一颗球体的质地，改变了抓握的情绪与意义。",
+      statement:   "The same gesture—a hand gripping a sphere—rendered across different materials and surface textures, each variation shifting the mood and meaning of the grip.",
+      statementZh: "同一个动作——手握球体——以不同材质与表面反复呈现，每一次变化都在改变抓握的情绪与意义。",
       featured: false,
       archived: true,
       collection:       "RISD Summer Program · 2024",
@@ -311,8 +312,8 @@ const SITE_DATA = {
       year:       2023,
       category:   "Drawing",
       categoryZh: "绘画",
-      medium:     "Ink · Charcoal · Monoprint",
-      mediumZh:   "水墨 · 炭笔 · 单版印刷",
+      medium:     "Ink, charcoal, monoprint",
+      mediumZh:   "水墨，炭笔，单版印刷",
       heroImage:  "images/works/ual23-01.jpg",
       images: [
         "images/works/ual23-01.jpg",
@@ -337,8 +338,8 @@ const SITE_DATA = {
       year:       2023,
       category:   "Sculpture",
       categoryZh: "雕塑",
-      medium:     "Clay · Mixed media",
-      mediumZh:   "粘土 · 混合媒介",
+      medium:     "Clay, mixed media",
+      mediumZh:   "粘土，混合媒介",
       heroImage:  "images/works/ual23-05.jpg",
       images: [
         "images/works/ual23-05.jpg",
@@ -486,8 +487,8 @@ const SITE_DATA = {
       year:       2024,
       category:   "Drawing",
       categoryZh: "速写",
-      medium:     "Mixed · Charcoal · Gouache",
-      mediumZh:   "综合 · 炭笔 · 水粉",
+      medium:     "Charcoal, gouache, mixed media",
+      mediumZh:   "炭笔，水粉，综合媒介",
       heroImage:  "images/works/studio24-12.jpg",
       images: [
         "images/works/studio24-13.jpg",
