@@ -21,8 +21,8 @@ const SITE_DATA = {
     artistPhoto: "images/artist.jpg",
 
     // 首页一句话
-    tagline:   "My work explores how the gaze and pressure of the outside world are internalized and transformed into bodily and psychological experiences.",
-    taglineZh: "我的创作试图赋予那些由目光、评价与规训所形成的内部压力以可见的形状。",
+    tagline:   "My work explores how being watched and pressured by the outside world is absorbed into the body and transformed into psychological experience.",
+    taglineZh: "我的创作探索外部世界的凝视与压力，是如何被身体所吸收、并转化为心理经验的。",
 
     // About 页的完整介绍
     bio: "My work grows from my inner response to the world around me, especially the gaze, judgment, and pressure that come from outside. As I grew up, how others saw me, and how I absorbed, resisted, and released that pressure, became one of the central questions in my life.\nThrough realism, abstraction, relief, and installation, I explore how pressure is formed, felt, and released. I use reconstruction, concealment, enlargement, and material translation to make familiar forms unstable, moving beyond narrative toward an internal experience of being watched, shaped, and confined.\nFocusing on the self is not the end of my practice. In recent work, I have begun to extend this gaze from myself to my family, the city, and society. My work does not aim to give answers, but to give visible form to feelings that persist and are often overlooked.",
@@ -179,6 +179,11 @@ const SITE_DATA = {
     
 
       heroImage:  "images/works/drawing-00.jpg",
+      homeImages: [
+        "images/works/drawing-portrait.jpg",
+        "images/works/drawing-food.jpg",
+        "images/works/drawing-03.jpg",
+      ],
       images: [
         "images/works/drawing-01.jpg",
         "images/works/drawing-02.jpg",

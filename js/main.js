@@ -17,8 +17,8 @@
       `<span class="en">${d.artist.tagline}</span>` +
       `<span class="zh">${d.artist.taglineZh}</span>`;
     document.querySelector('.hero-eyebrow').innerHTML =
-      `<span class="en">Fine Art &nbsp;·&nbsp; Painting · Drawing · Sculpture · Installation</span>` +
-      `<span class="zh">纯艺术 &nbsp;·&nbsp; 绘画 · 素描 · 雕塑 · 装置</span>`;
+      `<span class="en">Gaze · Pressure · Body · Memory</span>` +
+      `<span class="zh">凝视 · 压力 · 身体 · 记忆</span>`;
 
     // Hero photo
     const photoEl = document.getElementById('hero-photo');
@@ -41,9 +41,14 @@
       section.id = `w${i + 1}`;
       section.dataset.workId = work.id;
 
+      const bgHtml = work.homeImages
+        ? `<div class="work-multi-images">${work.homeImages.map(src =>
+            `<img src="${src}" alt="${work.title}" loading="lazy">`).join('')}</div>`
+        : `<div class="work-bg" style="background-image:url('${work.heroImage}')"></div>
+        <div class="work-veil"></div>`;
+
       section.innerHTML = `
-        <div class="work-bg" style="background-image:url('${work.heroImage}')"></div>
-        <div class="work-veil"></div>
+        ${bgHtml}
         <div class="work-bottom-grad"></div>
         <div class="work-info">
           <span class="work-meta">
