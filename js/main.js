@@ -44,7 +44,7 @@
       const bgHtml = work.homeImages
         ? `<div class="work-multi-images">${work.homeImages.map(src =>
             `<img src="${src}" alt="${work.title}" loading="lazy">`).join('')}</div>`
-        : `<div class="work-bg" style="background-image:url('${work.heroImage}')"></div>
+        : `<div class="work-bg" style="background-image:url('${work.heroImage}');background-size:${work.homeBgSize || 'contain'}"></div>
         <div class="work-veil"></div>`;
 
       section.innerHTML = `

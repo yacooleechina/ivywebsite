@@ -178,7 +178,8 @@ const SITE_DATA = {
       series:     "SFK",
     
 
-      heroImage:  "images/works/drawing-01.jpg",
+      heroImage:   "images/works/drawing-01.jpg",
+      homeBgSize:  "62%",
       images: [
         "images/works/drawing-01.jpg",
         "images/works/drawing-02.jpg",
