@@ -187,10 +187,11 @@ html[lang="en"] span.zh { display: none; }
 }
 
 .hero-tagline {
-  margin-top: 52px;
+  margin-top: 72px;
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(15px, 1.5vw, 18px);
+  font-size: clamp(17px, 1.7vw, 22px);
   font-style: italic;
+  line-height: 1.85;
   color: var(--muted);
   opacity: 0;
   animation: fadeup 1.2s ease 1.8s forwards;
