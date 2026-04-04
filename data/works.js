@@ -106,7 +106,9 @@ const SITE_DATA = {
       medium:     "Superlight clay，Aluminum foil,white latex adhesive ,acrylic paint and gesso on canvas s",
       mediumZh:   "超轻粘土，铝箔，白色乳胶胶粘剂，丙烯漆和石膏帆布",
 
-      heroImage:  "images/works/relief-01.jpg",
+      heroImage:      "images/works/relief-01.jpg",
+      homeBgSize:     "90%",
+      detailHeroSize: "90%",
       images: [
         "images/works/relief-02.jpg",
         "images/works/relief-03.jpg", 
