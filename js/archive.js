@@ -25,7 +25,20 @@
     Object.values(groups).forEach(g => {
       g.works.sort((a, b) => (b.year || 0) - (a.year || 0));
     });
-    return Object.values(groups);
+    // Sort collections in specified order
+    const ORDER = [
+      'Early Works',
+      'Summer 2024 · Li Jing Studio',
+      'RISD Summer School 2024',
+      'UAL Summer School 2023',
+    ];
+    return Object.values(groups).sort((a, b) => {
+      const ia = ORDER.indexOf(a.name);
+      const ib = ORDER.indexOf(b.name);
+      const wa = ia === -1 ? 999 : ia;
+      const wb = ib === -1 ? 999 : ib;
+      return wa - wb;
+    });
   }
 
 

@@ -61,18 +61,30 @@
       const countEl = pager.querySelector('.wd-pager-count');
       const total   = slides.length;
       let current   = 0;
+      let timer     = null;
 
       function show(n) {
         slides[current].classList.remove('active');
-        current = n;
+        current = (n + total) % total;
         slides[current].classList.add('active');
         countEl.textContent = `${current + 1} / ${total}`;
-        prevBtn.disabled = current === 0;
-        nextBtn.disabled = current === total - 1;
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
       }
 
-      prevBtn.addEventListener('click', () => show(current - 1));
-      nextBtn.addEventListener('click', () => show(current + 1));
+      function startAuto() {
+        timer = setInterval(() => show(current + 1), 2000);
+      }
+
+      function resetAuto() {
+        clearInterval(timer);
+        startAuto();
+      }
+
+      prevBtn.addEventListener('click', () => { show(current - 1); resetAuto(); });
+      nextBtn.addEventListener('click', () => { show(current + 1); resetAuto(); });
+
+      startAuto();
     });
   }
 
