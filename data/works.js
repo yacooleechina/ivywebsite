@@ -191,8 +191,8 @@ const SITE_DATA = {
         "images/works/drawing-food.jpg",
       ],
 
-      statement:   "The most honest act of observation is to acknowledge that looking changes what is being looked at—two people watching each other form a closed loop with no outside.",
-      statementZh: "最诚实的观察，是承认看本身改变了被看的对象——两人相互凝视，构成一个没有外部的闭环。",
+      statement:   "A series of large-scale observational drawings—portraits, objects, and still lifes—made from life through close, sustained looking.",
+      statementZh: "一批大尺幅观察绘画，题材涵盖肖像、物件与静物，均从实物出发，在长期的近距离写生中积累而成。",
 
       featured: true,
     },
