@@ -164,7 +164,7 @@ html[lang="en"] span.zh { display: none; }
   font-size: 9px;
   letter-spacing: 0.5em;
   text-transform: uppercase;
-  color: var(--dim);
+  color: var(--muted);
   margin-bottom: 48px;
   opacity: 0;
   animation: fadeup 1.2s ease 2.6s forwards;
