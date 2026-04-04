@@ -184,7 +184,6 @@ const SITE_DATA = {
       homeBgSize:     "80%",
       detailHeroSize: "80%",
       images: [
-        "images/works/drawing-01.jpg",
         "images/works/drawing-02.jpg",
         "images/works/drawing-03.jpg",
         "images/works/drawing-portrait.jpg",

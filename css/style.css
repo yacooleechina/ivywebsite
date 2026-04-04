@@ -613,7 +613,14 @@ footer span {
 /* 4+ images: paginator */
 .wd-pager-slide { display: none; margin: 0; }
 .wd-pager-slide.active { display: block; }
-.wd-pager-slide img { width: 100%; height: auto; display: block; }
+.wd-pager-slide img {
+  width: auto;
+  max-width: 100%;
+  max-height: 62vh;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .wd-pager-controls {
   display: flex;
   align-items: center;
