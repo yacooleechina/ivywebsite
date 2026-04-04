@@ -47,7 +47,7 @@ const SITE_DATA = {
       year:       2025,
       category:   "Painting",           // 待填写，如 Installation / Painting 等
       categoryZh: "绘画",           // 待填写
-      series:     "Who Is Watching Me？",
+      series:     "Who Is Watching Me?",
       medium:     "Charcoal on paper",           // 待填写
       mediumZh:   "炭笔画",           // 待填写
 
@@ -74,7 +74,7 @@ const SITE_DATA = {
       year:       2025,
       category:   "Painting",           // 待填写，如 Installation / Painting 等
       categoryZh: "绘画",           // 待填写
-      series:     "Who Is Watching Me？",
+      series:     "Who Is Watching Me?",
       medium:     "Charcoal and gesso on paper",
       mediumZh:   "木炭、石膏底料，纸本",           // 待填写
 
@@ -202,10 +202,10 @@ const SITE_DATA = {
       title:      "Sagittarius",
       titleZh:    "射手座",
       year:       2024,
-      category:   "Digital illustration",
+      category:   "Digital Illustration",
       categoryZh: "数字插画",
       series:     "",
-      medium:     "Digital Illustration",
+      medium:     "Digital illustration",
       mediumZh:   "数字插画",
 
       heroImage:  "images/works/深海守望者.jpg",
@@ -265,7 +265,7 @@ const SITE_DATA = {
       category:   "Ink & Watercolor",
       categoryZh: "水墨 · 水彩",
       series:     "RISD Pre-College",
-      medium:     "Ink, watercolor on paper",
+      medium:     "Ink and watercolor on paper",
       mediumZh:   "纸本水墨、水彩",
       heroImage:  "images/works/risd24-ink-01.jpg",
       images: [
