@@ -89,8 +89,8 @@ const SITE_DATA = {
         "images/works/watching-r-01.jpg",      
       ],
 
-      statement:   “I rebuilt the same classroom scene to express the pressure and self-consciousness I felt while growing up under the eyes of others.”,
-      statementZh: “我把同一个课堂场景重新组织，是想表达我在成长过程中处于他人目光之下时感受到的压力和强烈的自我意识。”,
+      statement:   "I rebuilt the same classroom scene to express the pressure and self-consciousness I felt while growing up under the eyes of others.",
+      statementZh: "我把同一个课堂场景重新组织，是想表达我在成长过程中处于他人目光之下时感受到的压力和强烈的自我意识。",
 
       featured: true,
     },
