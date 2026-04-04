@@ -178,11 +178,7 @@ const SITE_DATA = {
       series:     "SFK",
     
 
-      heroImage:  "images/works/drawing-00.jpg",
-      homeImages: [
-        "images/works/drawing-food.jpg",
-        "images/works/drawing-03.jpg",
-      ],
+      heroImage:  "images/works/drawing-01.jpg",
       images: [
         "images/works/drawing-01.jpg",
         "images/works/drawing-02.jpg",
