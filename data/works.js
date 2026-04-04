@@ -21,12 +21,12 @@ const SITE_DATA = {
     artistPhoto: "images/artist.jpg",
 
     // 首页一句话
-    tagline:   "My work explores how being watched and pressured by the outside world is absorbed into the body and transformed into psychological experience.",
-    taglineZh: "我的创作探索外部世界的凝视与压力，是如何被身体所吸收、并转化为心理经验的。",
+    tagline:   "My work is about the feelings I have experienced while growing up — being watched, judged, and pressured, and how these feelings have shaped the way I see my body and myself.",
+    taglineZh: "我的作品关乎我在成长过程中经历过的感受——被注视、被评判、被施压，以及这些感受如何影响我看待自己的身体和自我。",
 
     // About 页的完整介绍
-    bio: "I work across charcoal drawing, painting, relief, and installation. Through reconstruction, concealment, and material translation, I make familiar forms unstable—creating work that moves beyond observation toward an internal experience of pressure, confinement, and release.\n\nThough my practice begins with the self, it extends outward: to family, the city, and the forces that quietly shape a life. I don't aim to give answers, but to make visible what persists and is often overlooked.",
-    bioZh: "我的创作跨越炭笔素描、绘画、浮雕与装置。通过重构、覆盖与材料转译，我让熟悉的形象变得不再稳定——使作品超越可见的表面，更接近一种被压制、被困住、又试图释放的内部经验。\n\n我的实践从自我出发，但不止于自我：它延伸至家庭、城市，以及那些悄然塑造一种生命的外部力量。我不试图给出答案，而是让那些持续存在却常被忽视的感受，获得一种可见的形状。",
+    bio: "Li Weiyi is a young artist working with painting, sculpture, and installation. Her work grows out of personal memory, everyday observation, and the feelings she has experienced while growing up. She often focuses on pressure, loneliness, and the experience of being watched, turning these inner feelings into images and objects. Through her work, she explores how growth shapes the relationship between the self and the outside world.",
+    bioZh: "李惟祎是一位使用绘画、雕塑和装置进行创作的年轻艺术家。她的作品来源于个人记忆、日常观察，以及她在成长过程中经历过的内心感受。她常常关注压力、孤独和被注视的体验，并尝试把这些内在感受转化成图像与物件。在创作中，她不断探索成长如何塑造自我与外部世界之间的关系。",
 
     education: [
       { year: "2024-2027", en: "Beijing Huiwen Middle School", zh: "北京汇文中学" },
@@ -58,8 +58,8 @@ const SITE_DATA = {
         "images/works/watching-02.jpg",
       ],
 
-      statement:   "A corner of the art studio—I was drawing a self-portrait in front of the mirror, with my tutor standing against the wall.",
-      statementZh: "画室一角，我在镜子前画自画像，导师站在墙边",          // 待填写
+      statement:   "This drawing started from a real classroom scene and shows one of the feelings I often had while growing up: the tension of being watched while working.",
+      statementZh: "这张作品来自一个真实的课堂场景，表现的是我在成长过程中常常感受到的一种状态：在做事和创作时被注视的紧张感。",
 
       size:"1.5m * 2m",
       sizeZh:"1.5米 * 2米",
@@ -89,8 +89,8 @@ const SITE_DATA = {
         "images/works/watching-r-01.jpg",      
       ],
 
-      statement:   “Starting from a classroom drawing—myself working while the teacher stands nearby—I repaint, cover, and distort the image until it shows not what I saw but what I felt: pressure, surveillance, and the need to perform under someone’s gaze.”,
-      statementZh: “从一张课堂写生出发，通过重绘、覆盖与重组，作品变成了一个心理空间——它记录的不是我看见了什么，而是我感受到的：被监视的压力，以及在他人目光下需要”表演”的焦虑。”,
+      statement:   “I rebuilt the same classroom scene to express the pressure and self-consciousness I felt while growing up under the eyes of others.”,
+      statementZh: “我把同一个课堂场景重新组织，是想表达我在成长过程中处于他人目光之下时感受到的压力和强烈的自我意识。”,
 
       featured: true,
     },
@@ -115,8 +115,8 @@ const SITE_DATA = {
         "images/works/relief-04.jpg",
       ],
 
-      statementZh:   "目光无处不在——即使独处也跟随着你，注视、衡量、评判——不仅来自身边的人，也来自社交媒体、广告，乃至内心不断自我审视的声音。",
-      statement: "Eyes are everywhere—following you even in solitude, watching, measuring, judging—not only from the people around you, but also from social media, advertising, and the critical voice within your own mind.",
+      statementZh:   "这件作品通过破碎的形体和重复出现的眼睛，表达了那些伴随我成长、一直留在内心里的不适感——被看见、被评判和被记住。",
+      statement: "With broken forms and repeated eyes, this work expresses some of the uncomfortable feelings that stayed with me while growing up — being seen, judged, and remembered.",
 
 
       featured: true,
@@ -140,8 +140,8 @@ const SITE_DATA = {
         "images/works/trapped-04.jpg",
       ],
 
-      statement:   "Growing up with crooked teeth that I learned to hide, I made this sculpture as an act of reclamation—reimagining each tooth as a playful spirit with its own character, inspired by the friends who taught me that flaws can carry warmth.",
-      statementZh: "因歪斜的牙齿，我从小学会了掩藏笑容；这件作品是一次重新夺回——将每一颗牙齿想象为有个性的精灵，它们的形态来自那些接纳我的朋友，提醒我缺陷也可以蕴含温暖。",
+      statement:   "This installation uses the image of a mouth to express the pressure I felt while growing up around appearance, expression, and being accepted by others.",
+      statementZh: "这件装置借用嘴的形象，表达我在成长过程中围绕外貌、表情和被他人接受所感受到的压力。",
 
       featured: true,
     },
@@ -164,8 +164,8 @@ const SITE_DATA = {
         "images/works/home-04.jpg",
       ],
 
-      statement:   "Through painting and installation, I trace the quiet parallel between a girl and her dog at home—both waiting, both reflecting what it means to be present in a space marked by absence.",
-      statementZh: "通过绘画与装置，我描绘一个女孩与她的狗在家中的情感对应——两者都在等待，都映照出那种既亲密、又带着缺席感的家的状态。",
+      statement:   "This project reflects some of my feelings while growing up, especially loneliness, companionship, and the quiet emotional connection between a girl and her dog.",
+      statementZh: "这个项目回应了我成长过程中的一些感受，尤其是孤独、陪伴，以及一个女孩和她的小狗之间安静的情感联系。",
 
       featured: true,
     },
@@ -191,8 +191,8 @@ const SITE_DATA = {
         "images/works/drawing-food.jpg",
       ],
 
-      statement:   "A series of large-scale observational drawings—portraits, objects, and still lifes—made from life through close, sustained looking.",
-      statementZh: "一批大尺幅观察绘画，题材涵盖肖像、物件与静物，均从实物出发，在长期的近距离写生中积累而成。",
+      statement:   "This drawing comes from close observation and careful attention to the details of a familiar object.",
+      statementZh: "这张作品来自细致的观察，以及对一个熟悉物件细节的认真描绘。",
 
       featured: true,
     },
