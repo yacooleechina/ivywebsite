@@ -180,7 +180,6 @@ const SITE_DATA = {
 
       heroImage:  "images/works/drawing-00.jpg",
       homeImages: [
-        "images/works/drawing-portrait.jpg",
         "images/works/drawing-food.jpg",
         "images/works/drawing-03.jpg",
       ],
