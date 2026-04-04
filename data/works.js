@@ -25,8 +25,8 @@ const SITE_DATA = {
     taglineZh: "我的创作探索外部世界的凝视与压力，是如何被身体所吸收、并转化为心理经验的。",
 
     // About 页的完整介绍
-    bio: "My work grows from my inner response to the world around me, especially the gaze, judgment, and pressure that come from outside. As I grew up, how others saw me, and how I absorbed, resisted, and released that pressure, became one of the central questions in my life.\nThrough realism, abstraction, relief, and installation, I explore how pressure is formed, felt, and released. I use reconstruction, concealment, enlargement, and material translation to make familiar forms unstable, moving beyond narrative toward an internal experience of being watched, shaped, and confined.\nFocusing on the self is not the end of my practice. In recent work, I have begun to extend this gaze from myself to my family, the city, and society. My work does not aim to give answers, but to give visible form to feelings that persist and are often overlooked.",
-    bioZh: "我的创作大多来自内心对周围世界的感受，尤其是那些来自外部的目光、评价与规训。在成长过程中，别人如何看待我，以及我如何消解和释放这些由他人带来的压力，一直是我需要面对的问题。\n因此，在创作中，无论是写实还是抽象，无论是浮雕还是装置，我都围绕这些压力如何形成、如何被感知、又如何被释放展开。我通过重构、覆盖、放大和材料转译，让熟悉的形象变得不再稳定，使作品保留现实的痕迹，却不完全停留在叙事层面，而更接近一种被观看、被塑形、被困住的内部经验。\n关注自我并不是我艺术表达的终点。近来的创作中，我也开始将这种来自外界的目光与凝视，从自身延伸到身边的人、城市与社会。我的作品不是为了给出答案，而是为了让那些持续存在却常被忽略的感受，获得一种可见的形状。",
+    bio: "I work across charcoal drawing, painting, relief, and installation. Through reconstruction, concealment, and material translation, I make familiar forms unstable—creating work that moves beyond observation toward an internal experience of pressure, confinement, and release.\n\nThough my practice begins with the self, it extends outward: to family, the city, and the forces that quietly shape a life. I don't aim to give answers, but to make visible what persists and is often overlooked.",
+    bioZh: "我的创作跨越炭笔素描、绘画、浮雕与装置。通过重构、覆盖与材料转译，我让熟悉的形象变得不再稳定——使作品超越可见的表面，更接近一种被压制、被困住、又试图释放的内部经验。\n\n我的实践从自我出发，但不止于自我：它延伸至家庭、城市，以及那些悄然塑造一种生命的外部力量。我不试图给出答案，而是让那些持续存在却常被忽视的感受，获得一种可见的形状。",
 
     education: [
       { year: "2024-2027", en: "Beijing Huiwen Middle School", zh: "北京汇文中学" },

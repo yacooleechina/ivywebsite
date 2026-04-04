@@ -351,6 +351,7 @@ html[lang="en"] span.zh { display: none; }
   font-style: italic;
   line-height: 1.72;
   color: var(--text);
+  max-width: 640px;
   margin-bottom: 52px;
   padding-left: 24px;
   border-left: 1px solid rgba(255,255,255,0.15);
