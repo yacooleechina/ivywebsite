@@ -107,8 +107,6 @@ const SITE_DATA = {
       mediumZh:   "超轻粘土，铝箔，白色乳胶胶粘剂，丙烯漆和石膏帆布",
 
       heroImage:      "images/works/relief-01.jpg",
-      homeBgSize:     "85%",
-      detailHeroSize: "85%",
       images: [
         "images/works/relief-02.jpg",
         "images/works/relief-03.jpg", 
@@ -182,8 +180,6 @@ const SITE_DATA = {
       mediumZh:   "纸本炭笔、丙烯",
 
       heroImage:      "images/works/drawing-01.jpg",
-      homeBgSize:     "80%",
-      detailHeroSize: "80%",
       images: [
         "images/works/drawing-02.jpg",
         "images/works/drawing-03.jpg",

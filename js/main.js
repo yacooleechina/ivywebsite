@@ -41,19 +41,21 @@
       section.id = `w${i + 1}`;
       section.dataset.workId = work.id;
 
-      const bgHtml = work.homeImages
-        ? `<div class="work-multi-images">${work.homeImages.map(src =>
-            `<img src="${src}" alt="${work.title}" loading="lazy">`).join('')}</div>`
-        : `<div class="work-bg" style="background-image:url('${work.heroImage}');background-size:${work.homeBgSize || 'contain'}"></div>
-        <div class="work-veil"></div>`;
+      const stmtHtml = work.statement ? `
+          <p class="work-stmt">
+            <span class="en">${work.statement}</span>
+            <span class="zh">${work.statementZh || ''}</span>
+          </p>` : '';
 
       section.innerHTML = `
-        ${bgHtml}
-        <div class="work-bottom-grad"></div>
-        <div class="work-info">
+        <span class="work-idx">${String(i + 1).padStart(2, '0')}</span>
+        <div class="work-img">
+          <img src="${work.heroImage}" alt="${work.title}" loading="lazy">
+        </div>
+        <div class="work-text">
           <span class="work-meta">
-            <span class="en">${String(i + 1).padStart(2, '0')} &nbsp;·&nbsp; ${work.category} &nbsp;·&nbsp; ${work.year}</span>
-            <span class="zh">${String(i + 1).padStart(2, '0')} &nbsp;·&nbsp; ${work.categoryZh} &nbsp;·&nbsp; ${work.year}</span>
+            <span class="en">${work.category} &nbsp;·&nbsp; ${work.year}</span>
+            <span class="zh">${work.categoryZh} &nbsp;·&nbsp; ${work.year}</span>
           </span>
           <h2 class="work-title">
             <span class="en">${work.title}</span>
@@ -63,9 +65,10 @@
             <span class="en">${work.medium}</span>
             <span class="zh">${work.mediumZh}</span>
           </p>
+          ${stmtHtml}
           <a class="work-link" href="work.html?id=${work.id}">
-            <span class="en">View Work ↗</span>
-            <span class="zh">查看详情 ↗</span>
+            <span class="en">View Work →</span>
+            <span class="zh">查看详情 →</span>
           </a>
         </div>
       `;
@@ -168,7 +171,6 @@
   function initScroll() {
     const revealTargets = [
       ...document.querySelectorAll('.work-section'),
-      ...document.querySelectorAll('.interlude-text'),
       ...document.querySelectorAll('.reveal'),
     ];
 
@@ -176,7 +178,7 @@
       entries.forEach(e => {
         if (e.isIntersecting) e.target.classList.add('in-view');
       });
-    }, { threshold: 0.25 });
+    }, { threshold: 0.08 });
 
     revealTargets.forEach(el => revealIO.observe(el));
 
