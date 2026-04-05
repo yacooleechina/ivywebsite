@@ -567,7 +567,7 @@ footer span {
 }
 .arc-collection-era {
   font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
-  color: var(--dim);
+  color: var(--muted);
 }
 .arc-collection-desc {
   font-size: clamp(13px, 1.2vw, 15px);
@@ -601,7 +601,7 @@ footer span {
   font-size: clamp(15px, 1.5vw, 20px); font-weight: 300;
   color: var(--text); margin-bottom: 4px;
 }
-.arc-card-medium { font-size: 11px; color: var(--dim); }
+.arc-card-medium { font-size: 11px; letter-spacing: 0.1em; color: var(--muted); }
 .arc-empty {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-style: italic; color: var(--muted); font-size: 18px;
