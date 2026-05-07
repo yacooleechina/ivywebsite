@@ -7,7 +7,11 @@
 
   // ── Group archived works by collection ───────────────────────
   function groupByCollection(works) {
-    const archived = works.filter(w => w.archived === true);
+    const showAPDrawing = SITE_DATA.showAPDrawingInArchive === true;
+    const archived = works.filter(w =>
+      w.archived === true &&
+      (showAPDrawing || w.collection !== 'AP Drawing · 2026')
+    );
     const groups = {};
     archived.forEach(w => {
       const key = w.collection || 'Other';
@@ -29,6 +33,8 @@
     });
     // Sort collections in specified order
     const ORDER = [
+      'AP 2-D Art and Design · 2026',
+      'AP Drawing · 2026',
       'Before This Portfolio',
       'Studio Practice · Summer 2024',
       'RISD Summer Program · 2024',
