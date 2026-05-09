@@ -27,9 +27,14 @@
       }
       groups[key].works.push(w);
     });
-    // Sort each group's works by year descending
+    // Sort each group's works by explicit archive order, then year descending
     Object.values(groups).forEach(g => {
-      g.works.sort((a, b) => (b.year || 0) - (a.year || 0));
+      g.works.sort((a, b) => {
+        const orderA = a.archiveOrder ?? 999;
+        const orderB = b.archiveOrder ?? 999;
+        if (orderA !== orderB) return orderA - orderB;
+        return (b.year || 0) - (a.year || 0);
+      });
     });
     // Sort collections in specified order
     const ORDER = [
