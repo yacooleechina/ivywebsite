@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Li Weiyi · Paper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="data/works.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --paper:  #f0ebe0;
+      --ink:    #0d0b08;
+      --muted:  #7a7060;
+      --rule:   rgba(0,0,0,0.10);
+      --accent: #5c1820;
+    }
+
+    html { background: var(--paper); color: var(--ink); scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+
+    /* ── Nav ── */
+    .nav {
+      position: fixed; inset: 0 0 auto;
+      z-index: 200;
+      padding: 0 56px;
+      height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+    }
+    .nav-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 15px; font-style: italic;
+      letter-spacing: 0.08em; text-decoration: none; color: var(--ink);
+    }
+    .nav-right { display: flex; gap: 36px; align-items: center; }
+    .nav-right a {
+      font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+      text-decoration: none; color: var(--muted);
+    }
+    .nav-right a:hover { color: var(--ink); }
+
+    /* ── Hero ── */
+    #hero {
+      min-height: 100vh;
+      padding: 160px 56px 80px;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+    }
+    .hero-sup {
+      font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 40px;
+    }
+    .hero-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(80px, 13vw, 200px);
+      font-weight: 300; line-height: 0.88;
+      letter-spacing: -0.02em;
+      margin-bottom: 56px;
+    }
+    .hero-name .italic { font-style: italic; }
+    .hero-bottom {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 40px;
+    }
+    .hero-tagline {
+      max-width: 520px;
+      font-size: 13.5px; line-height: 1.85;
+      color: var(--muted);
+      border-left: 1px solid var(--rule); padding-left: 20px;
+    }
+    .hero-caption {
+      font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--muted); text-align: right; line-height: 2;
+    }
+
+    /* ── Works list ── */
+    #works { padding: 0 56px; }
+
+    .work-row {
+      display: grid;
+      grid-template-columns: 64px 1fr 1fr;
+      gap: 0 64px;
+      padding: 72px 0;
+      border-bottom: 1px solid var(--rule);
+      align-items: start;
+    }
+    /* alternate: odd rows image right */
+    .work-row:nth-child(odd)  .work-img  { grid-column: 2; grid-row: 1; }
+    .work-row:nth-child(odd)  .work-text { grid-column: 3; grid-row: 1; }
+    .work-row:nth-child(even) .work-img  { grid-column: 3; grid-row: 1; }
+    .work-row:nth-child(even) .work-text { grid-column: 2; grid-row: 1; }
+
+    .work-idx {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 11px; letter-spacing: 0.2em; color: var(--muted);
+      padding-top: 6px;
+    }
+    .work-img img {
+      width: 100%; display: block;
+    }
+    .work-text { padding-top: 6px; }
+    .work-cat {
+      font-size: 9.5px; letter-spacing: 0.24em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 18px;
+    }
+    .work-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(30px, 3.8vw, 58px);
+      font-weight: 300; line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin-bottom: 24px;
+    }
+    .work-title em { font-style: italic; }
+    .work-medium {
+      font-size: 11.5px; color: var(--muted); line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .work-stmt {
+      font-size: 13px; line-height: 1.85;
+      color: var(--ink); margin-bottom: 32px;
+      max-width: 400px;
+    }
+    .work-cta {
+      display: inline-block;
+      font-size: 9.5px; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--ink); text-decoration: none;
+      border-bottom: 1px solid var(--ink); padding-bottom: 3px;
+    }
+    .work-cta:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ── About ── */
+    #about {
+      padding: 100px 56px;
+      display: grid; grid-template-columns: 64px 1fr 1fr;
+      gap: 0 64px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .about-lbl {
+      font-size: 9.5px; letter-spacing: 0.24em; text-transform: uppercase;
+      color: var(--muted); writing-mode: vertical-rl;
+      height: fit-content; align-self: start;
+    }
+    .about-display {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(44px, 5.5vw, 86px);
+      font-weight: 300; line-height: 1.05;
+      letter-spacing: -0.015em;
+    }
+    .about-display em { font-style: italic; }
+    .about-body {
+      font-size: 13.5px; line-height: 1.9; color: var(--muted);
+      padding-top: 8px;
+    }
+    .about-meta {
+      margin-top: 40px;
+      font-size: 11px; line-height: 2; color: var(--muted);
+      border-top: 1px solid var(--rule); padding-top: 20px;
+    }
+    .about-meta span { display: block; letter-spacing: 0.05em; }
+
+    /* ── Footer ── */
+    footer {
+      padding: 32px 56px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    footer p { font-size: 10.5px; color: var(--muted); letter-spacing: 0.1em; }
+
+    /* ── Fade in ── */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.9s ease, transform 0.9s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav-brand" href="#">Li Weiyi</a>
+    <div class="nav-right">
+      <a href="#">Works</a>
+      <a href="#">Archive</a>
+      <a href="#">About</a>
+      <a href="#">中文</a>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <p class="hero-sup">Artist · Beijing · b. 2008</p>
+    <h1 class="hero-name">
+      <span class="italic">Li</span><br>Weiyi
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-tagline" id="tagline"></p>
+      <p class="hero-caption">Selected Works<br>2024 – 2025</p>
+    </div>
+  </section>
+
+  <section id="works"></section>
+
+  <section id="about">
+    <span class="about-lbl">About</span>
+    <div>
+      <h2 class="about-display reveal"><em>Li</em><br>Weiyi</h2>
+      <div class="about-meta reveal" id="about-meta"></div>
+    </div>
+    <div>
+      <p class="about-body reveal" id="bio"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p id="footer-yr"></p>
+    <p>Beijing · <a href="#" style="color:inherit;text-decoration:none;">li-weiyi.com</a></p>
+  </footer>
+
+  <script>
+    const D = SITE_DATA;
+    document.getElementById('tagline').textContent  = D.artist.tagline;
+    document.getElementById('bio').textContent      = D.artist.bio;
+    document.getElementById('footer-yr').textContent = `© ${new Date().getFullYear()} Li Weiyi`;
+
+    // Education meta
+    const meta = D.artist.education.map(e => `<span>${e.year} · ${e.en}</span>`).join('');
+    document.getElementById('about-meta').innerHTML = meta + `<span>Contact: ${D.artist.contact}</span>`;
+
+    // Works
+    const featured = D.works.filter(w => w.featured);
+    document.getElementById('works').innerHTML = featured.map((w, i) => `
+      <article class="work-row reveal">
+        <span class="work-idx">0${i+1}</span>
+        <div class="work-img">
+          <img src="${w.heroImage}" alt="${w.title}" loading="lazy">
+        </div>
+        <div class="work-text">
+          <p class="work-cat">${w.category} · ${w.year}</p>
+          <h2 class="work-title">${w.title.replace(' · ', ' <em>·</em> ')}</h2>
+          <p class="work-medium">${w.medium}</p>
+          <p class="work-stmt">${w.statement}</p>
+          <a class="work-cta" href="work.html?id=${w.id}">View Work →</a>
+        </div>
+      </article>
+    `).join('');
+
+    // Reveal on scroll
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('in');
+    }), { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+
+</body>
+</html>

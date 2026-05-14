@@ -24,12 +24,17 @@ const SITE_DATA = {
     artistPhoto: "images/artist.jpg",
 
     // 首页一句话
-    tagline:   "My work is about the feelings I have experienced while growing up — being watched, judged, and pressured, and how these feelings have shaped the way I see my body and myself.",
-    taglineZh: "我的作品关乎我在成长过程中经历过的感受——被注视、被评判、被施压，以及这些感受如何影响我看待自己的身体和自我。",
+    tagline: "My work comes from the feelings I have experienced while growing up — being watched, judged, and pressured — and how these experiences have shaped the way I see my body and myself.",
+    taglineZh: "我的创作源于成长过程中被注视、被评判和被施压的经验，并探索这些经历如何塑造我看待身体与自我的方式。",
 
     // About 页的完整介绍
-    bio: "Li Weiyi is a young artist working with painting, sculpture, and installation. Her work grows out of personal memory, everyday observation, and the feelings she has experienced while growing up. She often focuses on pressure, loneliness, and the experience of being watched, turning these inner feelings into images and objects. Through her work, she explores how growth shapes the relationship between the self and the outside world.",
-    bioZh: "李惟祎是一位使用绘画、雕塑和装置进行创作的年轻艺术家。她的作品来源于个人记忆、日常观察，以及她在成长过程中经历过的内心感受。她常常关注压力、孤独和被注视的体验，并尝试把这些内在感受转化成图像与物件。在创作中，她不断探索成长如何塑造自我与外部世界之间的关系。",
+    bio: `Li Weiyi is a young artist based in Beijing, working across painting, sculpture, and installation. Her work grows from personal memory, everyday observation, and the emotional pressures she has experienced while growing up. 
+    
+Through images of rooms, faces, bodies, and fragmented objects, she explores how being watched, judged, and pressured can reshape a person’s sense of self. Her practice often moves between two-dimensional and three-dimensional forms, turning inner emotions into physical spaces, surfaces, and objects.`,
+    
+    bioZh: `李惟祎是一位生活并学习于北京的年轻艺术创作者，主要以绘画、雕塑和装置进行创作。她的作品源于个人记忆、日常观察，以及成长过程中所经历的情绪压力。
+
+通过房间、面孔、身体和碎片化物件等图像，她探索被注视、被评判和被施压的经验如何改变一个人对自我的感知。她的创作常在二维与三维之间转换，将内在情绪转化为具体的空间、表面与物体。`,
 
     education: [
       { year: "2024-2027", en: "Beijing Huiwen Middle School", zh: "北京汇文中学" },
@@ -48,7 +53,7 @@ const SITE_DATA = {
       title:      "Who Is Watching Me?",
       titleZh:    "谁在看我？",
       year:       2025,
-      category:   "Painting",           // 待填写，如 Installation / Painting 等
+      category:   "Drawing",           // 待填写，如 Installation / Painting 等
       categoryZh: "绘画",           // 待填写
       series:     "Who Is Watching Me?",
       medium:     "Charcoal on paper",           // 待填写
@@ -61,8 +66,8 @@ const SITE_DATA = {
         "images/works/watching-02.jpg",
       ],
 
-      statement:   "This drawing started from a real classroom scene and shows one of the feelings I often had while growing up: the tension of being watched while working.",
-      statementZh: "这张作品来自一个真实的课堂场景，表现的是我在成长过程中常常感受到的一种状态：在做事和创作时被注视的紧张感。",
+      statement:   "Based on a real classroom scene, this drawing transforms an ordinary learning space into a psychological space of observation and pressure. The oversized figure and reflected self create a quiet tension, suggesting how being watched can change the way a person sees and inhabits their own body.",
+      statementZh: "这件作品源于一个真实的教室场景。我将普通的学习空间转化为一个充满注视与压力的心理空间。画面中被放大的站立人物与镜中的自我形成紧张关系，暗示被观看的经验如何改变我对身体和自我的感知。",
 
       size:"1.5m * 2m",
       sizeZh:"1.5米 * 2米",
@@ -75,11 +80,11 @@ const SITE_DATA = {
       title:      "Who Is Watching Me? · Reconstructed",
       titleZh:    "谁在看我？· 重构",
       year:       2025,
-      category:   "Painting",           // 待填写，如 Installation / Painting 等
-      categoryZh: "绘画",           // 待填写
+      category:   "MIXED MEDIA DRAWING",           // 待填写，如 Installation / Painting 等
+      categoryZh: "综合材料绘画",           // 待填写
       series:     "Who Is Watching Me?",
       medium:     "Charcoal and gesso on paper",
-      mediumZh:   "木炭、石膏底料，纸本",           // 待填写
+      mediumZh:   "纸本炭笔、石膏底料",           // 待填写
 
       size:"2.5m * 3m",
       sizeZh:"2.5米 * 3米",
@@ -92,9 +97,8 @@ const SITE_DATA = {
         "images/works/watching-r-01.jpg",      
       ],
 
-      statement:   "I rebuilt the same classroom scene to express the pressure and self-consciousness I felt while growing up under the eyes of others.",
-      statementZh: "我把同一个课堂场景重新组织，是想表达我在成长过程中处于他人目光之下时感受到的压力和强烈的自我意识。",
-
+      statement: "Reworking the original classroom scene, this piece turns the space into a more fragmented and unstable psychological environment. The figures, reflections, and darkened surfaces suggest how external attention can gradually become internal pressure.",
+      statementZh: "在重新处理原本的课堂场景时，我将空间转化为一个更加破碎和不稳定的心理环境。画面中的人物、倒影与加深的表面暗示外部的注视如何逐渐变成内在压力。",
       featured: true,
     },
 
@@ -107,7 +111,7 @@ const SITE_DATA = {
       categoryZh: "浮雕",
       series:     "RISD Pre-College",
       medium:     "Superlight clay, aluminum foil, white latex, acrylic and gesso on canvas",
-      mediumZh:   "超轻粘土，铝箔，白色乳胶胶粘剂，丙烯漆和石膏帆布",
+      mediumZh:   "超轻黏土、铝箔、白乳胶、丙烯、石膏底料、画布",
 
       heroImage:      "images/works/relief-01.jpg",
       images: [
@@ -116,8 +120,9 @@ const SITE_DATA = {
         "images/works/relief-04.jpg",
       ],
 
-      statementZh:   "这件作品通过破碎的形体和重复出现的眼睛，表达了那些伴随我成长、一直留在内心里的不适感——被看见、被评判和被记住。",
-      statement: "With broken forms and repeated eyes, this work expresses some of the uncomfortable feelings that stayed with me while growing up — being seen, judged, and remembered.",
+    
+      statementZh: "这件浮雕由重复的眼睛、扭曲的面孔和不平整的表面构成，将记忆转化为一种具体而不安的形态。作品暗示被注视和被评判的经验如何留存在身体中，并在时间中以碎片化的图像重新浮现。",
+      statement: "Built from repeated eyes, distorted faces, and uneven surfaces, this relief sculpture turns memory into something physical and unsettling. The work suggests how being seen and judged can remain in the body, resurfacing as fragmented images over time.",
 
 
       featured: true,
@@ -141,8 +146,8 @@ const SITE_DATA = {
         "images/works/trapped-04.jpg",
       ],
 
-      statement:   "This installation uses the image of a mouth to express the pressure I felt while growing up around appearance, expression, and being accepted by others.",
-      statementZh: "这件装置借用嘴的形象，表达我在成长过程中围绕外貌、表情和被他人接受所感受到的压力。",
+      statement: "This sculpture explores the appearance anxiety I experienced because of my teeth. The enlarged mouth becomes a space where discomfort, protection, and self-recognition coexist. The small faces inside suggest the different versions of myself shaped by shame, avoidance, and the desire to accept my own image.",
+      statementZh: "这件雕塑源于我因牙齿畸形而产生的容貌焦虑。被放大的嘴既是一个令人不安的部位，也是一个保护性的空间，包裹着其中的小面孔。通过将笑容转化为具体的结构，作品呈现了我面对不安全感，并逐渐与自己的牙齿和外貌和解的过程。",
 
       featured: true,
     },
@@ -165,9 +170,8 @@ const SITE_DATA = {
         "images/works/home-04.jpg",
       ],
 
-      statement:   "This project reflects some of my feelings while growing up, especially loneliness, companionship, and the quiet emotional connection between a girl and her dog.",
-      statementZh: "这个项目回应了我成长过程中的一些感受，尤其是孤独、陪伴，以及一个女孩和她的小狗之间安静的情感联系。",
-
+      statement: "This series reflects on the loneliness I felt growing up as an only child and the companionship I found in my dog. At the same time, I began to realize that my dog was always waiting at home, carrying its own loneliness. Through fragmented domestic scenes, I move from the feeling of being watched by others toward seeing the waiting and solitude of another life.",
+      statementZh: "这组作品回应了我作为独生子女在成长过程中感受到的孤独，以及我从小狗身上获得的陪伴。与此同时，我也开始意识到，小狗总是在家中等待，承受着它自己的孤独。通过碎片化的家庭场景，我从被他人注视的感受出发，逐渐看见另一个生命的等待与孤独。",
       featured: true,
     },
 
@@ -176,8 +180,8 @@ const SITE_DATA = {
       title:      "Observational Drawing",
       titleZh:    "观察绘画",
       year:       2024,
-      category:   "Large-Scale Drawing",
-      categoryZh: "大尺幅素描、丙烯",
+      category:   "Drawing  Series",
+      categoryZh: "绘画系列",
       series:     "SFK",
       medium:     "Charcoal and acrylic on paper",
       mediumZh:   "纸本炭笔、丙烯",
@@ -186,12 +190,12 @@ const SITE_DATA = {
       images: [
         "images/works/drawing-02.jpg",
         "images/works/drawing-03.jpg",
-        "images/works/drawing-portrait.jpg",
+        //"images/works/drawing-portrait.jpg",
         "images/works/drawing-food.jpg",
       ],
 
-      statement:   "This drawing comes from close observation and careful attention to the details of a familiar object.",
-      statementZh: "这张作品来自细致的观察，以及对一个熟悉物件细节的认真描绘。",
+      statement:   "This series comes from sustained observation of everyday objects. By studying their structure, light, texture, and details, I trained myself to look more slowly and understand the relationships between forms. These drawings became an important foundation for how I later approached space, the body, and material in my work.",
+      statementZh: "这组观察绘画来自我对日常物件的持续观察。通过描绘它们的结构、光线、质感和细节，我训练自己更慢地观看，并理解物体之间的关系。这组作品也成为我之后处理空间、身体和材料时的重要基础。",
 
       featured: true,
     },

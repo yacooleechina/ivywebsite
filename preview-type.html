@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Li Weiyi · Type</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=Inter:wght@100;200;400;900&display=swap" rel="stylesheet">
+  <script src="data/works.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:   #0a0a0a;
+      --fg:   #f0ebe0;
+      --dim:  #4a4540;
+      --red:  #c0392b;
+    }
+
+    html, body { background: var(--bg); color: var(--fg); overflow-x: hidden; }
+    body { font-family: 'Inter', sans-serif; cursor: none; }
+
+    /* ── Cursor ── */
+    #cur { position: fixed; width: 6px; height: 6px; background: var(--fg); border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%,-50%); transition: transform 0.1s; }
+    #cur-ring { position: fixed; width: 36px; height: 36px; border: 1px solid rgba(240,235,224,0.3); border-radius: 50%; pointer-events: none; z-index: 9998; transform: translate(-50%,-50%); transition: left 0.12s ease, top 0.12s ease; }
+
+    /* ── Nav ── */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 0 48px; height: 56px;
+      display: flex; align-items: center; justify-content: space-between;
+      mix-blend-mode: difference;
+    }
+    .nav-brand {
+      font-family: 'Inter', sans-serif; font-weight: 900;
+      font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+      text-decoration: none; color: var(--fg);
+    }
+    .nav-right { display: flex; gap: 32px; }
+    .nav-right a {
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      text-decoration: none; color: var(--fg); opacity: 0.5;
+    }
+    .nav-right a:hover { opacity: 1; }
+
+    /* ── Hero: the name IS the design ── */
+    #hero {
+      height: 100vh; position: relative; overflow: hidden;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    /* Background image revealed through outline text */
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      opacity: 0.35;
+      transition: opacity 1s;
+    }
+    .hero-bg.loaded { opacity: 0.35; }
+
+    .hero-name-wrap {
+      position: relative; z-index: 2;
+      padding: 0 32px;
+      user-select: none;
+    }
+    .name-line {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-weight: 900;
+      font-size: clamp(80px, 16vw, 220px);
+      line-height: 0.85;
+      letter-spacing: -0.04em;
+      white-space: nowrap;
+    }
+    /* "LI" — outlined, ghost */
+    .name-line.outline {
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(240,235,224,0.4);
+    }
+    /* "WEIYI" — solid fill */
+    .name-line.solid {
+      color: var(--fg);
+    }
+
+    .hero-sub {
+      position: absolute; bottom: 64px; left: 48px; right: 48px; z-index: 2;
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .hero-tagline {
+      max-width: 420px;
+      font-size: 12.5px; line-height: 1.8; color: rgba(240,235,224,0.5);
+      font-weight: 300;
+    }
+    .hero-scroll {
+      font-size: 9px; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--dim); writing-mode: vertical-rl;
+    }
+
+    /* ── Works index ── */
+    #works {
+      padding: 0 48px 120px;
+    }
+    .works-header {
+      padding: 80px 0 48px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .works-hd-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(40px, 6vw, 80px);
+      font-weight: 300; font-style: italic;
+      color: var(--fg);
+    }
+    .works-hd-count {
+      font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--dim);
+    }
+
+    /* Each work as a typographic line */
+    .work-line {
+      display: grid;
+      grid-template-columns: 48px 1fr auto;
+      gap: 0 32px;
+      align-items: center;
+      padding: 22px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      text-decoration: none; color: inherit;
+      position: relative;
+      overflow: hidden;
+      transition: padding-left 0.3s ease;
+    }
+    .work-line::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: rgba(255,255,255,0.03);
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .work-line:hover::before { transform: scaleX(1); }
+    .work-line:hover { padding-left: 12px; }
+    .work-line:hover .work-line-num { color: var(--fg); }
+    .work-line:hover .work-line-title { letter-spacing: -0.005em; }
+
+    .work-line-num {
+      font-size: 10px; letter-spacing: 0.15em;
+      color: var(--dim); font-variant-numeric: tabular-nums;
+      transition: color 0.3s;
+    }
+    .work-line-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(22px, 2.8vw, 40px);
+      font-weight: 300; font-style: italic;
+      letter-spacing: -0.01em;
+      transition: letter-spacing 0.3s;
+    }
+    .work-line-meta {
+      font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--dim); text-align: right;
+    }
+
+    /* Preview image on hover */
+    .work-preview {
+      position: fixed; top: 50%; right: 60px;
+      width: 280px; height: 360px;
+      pointer-events: none; z-index: 50;
+      transform: translateY(-50%);
+      opacity: 0; transition: opacity 0.25s ease;
+    }
+    .work-preview img { width: 100%; height: 100%; object-fit: cover; }
+    .work-preview.show { opacity: 1; }
+
+    /* ── About ── */
+    #about {
+      padding: 120px 48px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .about-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(52px, 8vw, 120px);
+      font-weight: 300; line-height: 0.9;
+      letter-spacing: -0.02em;
+    }
+    .about-left h2 em { font-style: italic; color: rgba(240,235,224,0.4); }
+    .about-right {
+      display: flex; flex-direction: column; justify-content: flex-end;
+    }
+    .about-bio {
+      font-size: 13.5px; line-height: 1.9; color: rgba(240,235,224,0.6);
+      margin-bottom: 32px; font-weight: 300;
+    }
+    .about-detail {
+      font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--dim); line-height: 2.2;
+    }
+
+    /* ── Footer ── */
+    footer {
+      padding: 32px 48px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between;
+    }
+    footer p { font-size: 10px; color: var(--dim); letter-spacing: 0.12em; }
+  </style>
+</head>
+<body>
+
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+
+  <nav class="nav">
+    <a class="nav-brand" href="#">Li Weiyi</a>
+    <div class="nav-right">
+      <a href="#">Works</a>
+      <a href="#">Archive</a>
+      <a href="#">About</a>
+      <a href="#">中文</a>
+    </div>
+  </nav>
+
+  <!-- Preview image follows cursor on work hover -->
+  <div class="work-preview" id="preview">
+    <img id="preview-img" src="" alt="">
+  </div>
+
+  <section id="hero">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="hero-name-wrap">
+      <span class="name-line outline">LI</span>
+      <span class="name-line solid">WEIYI</span>
+    </div>
+    <div class="hero-sub">
+      <p class="hero-tagline" id="tagline"></p>
+      <span class="hero-scroll">Scroll ↓</span>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="works-header">
+      <h2 class="works-hd-title">Selected Works</h2>
+      <span class="works-hd-count" id="works-count"></span>
+    </div>
+    <div id="works-list"></div>
+  </section>
+
+  <section id="about">
+    <div class="about-left">
+      <h2><em>Li</em><br>Weiyi</h2>
+    </div>
+    <div class="about-right">
+      <p class="about-bio" id="bio"></p>
+      <div class="about-detail" id="detail"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p id="yr"></p>
+    <p>Beijing · li-weiyi.com</p>
+  </footer>
+
+  <script>
+    const D = SITE_DATA;
+    const cur     = document.getElementById('cur');
+    const curRing = document.getElementById('cur-ring');
+    const preview = document.getElementById('preview');
+    const prevImg = document.getElementById('preview-img');
+
+    // Cursor
+    document.addEventListener('mousemove', e => {
+      cur.style.left = e.clientX + 'px';
+      cur.style.top  = e.clientY + 'px';
+      curRing.style.left = e.clientX + 'px';
+      curRing.style.top  = e.clientY + 'px';
+    });
+
+    // Content
+    document.getElementById('tagline').textContent = D.artist.tagline;
+    document.getElementById('bio').textContent     = D.artist.bio;
+    document.getElementById('yr').textContent      = `© ${new Date().getFullYear()} Li Weiyi`;
+
+    const featured = D.works.filter(w => w.featured);
+    document.getElementById('works-count').textContent = `${featured.length} works`;
+
+    // Set hero background to first work
+    const heroBg = document.getElementById('hero-bg');
+    heroBg.style.backgroundImage = `url('${featured[0].heroImage}')`;
+
+    // Work lines
+    document.getElementById('works-list').innerHTML = featured.map((w, i) => `
+      <a class="work-line" href="work.html?id=${w.id}" data-img="${w.heroImage}">
+        <span class="work-line-num">0${i+1}</span>
+        <span class="work-line-title">${w.title}</span>
+        <span class="work-line-meta">${w.category} · ${w.year}</span>
+      </a>
+    `).join('');
+
+    // Hover preview
+    document.querySelectorAll('.work-line').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        prevImg.src = el.dataset.img;
+        preview.classList.add('show');
+        heroBg.style.backgroundImage = `url('${el.dataset.img}')`;
+      });
+      el.addEventListener('mouseleave', () => {
+        preview.classList.remove('show');
+      });
+    });
+
+    // About detail
+    document.getElementById('detail').innerHTML =
+      D.artist.education.map(e => `<span>${e.year} · ${e.en}</span>`).join('') +
+      `<span>Contact: ${D.artist.contact}</span>`;
+  </script>
+</body>
+</html>

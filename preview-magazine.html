@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Li Weiyi · Magazine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Inter:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+  <script src="data/works.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: #f5f0e8; color: #0d0b08; overflow-x: hidden;
+    }
+    body { font-family: 'Inter', sans-serif; }
+
+    /* ── Crop-mark decoration on any .cm element ── */
+    .cm { position: relative; }
+    .cm::before, .cm::after {
+      content: '';
+      position: absolute; pointer-events: none;
+    }
+    /* Top-left cross */
+    .cm::before {
+      top: 12px; left: 12px;
+      width: 20px; height: 1px; background: rgba(0,0,0,0.15);
+      box-shadow: 0 0 0 0 transparent;
+    }
+    /* … additional marks via pseudo ::after */
+    .cm::after {
+      top: 2px; left: 22px;
+      width: 1px; height: 20px; background: rgba(0,0,0,0.15);
+    }
+
+    /* ── Nav ── */
+    .nav {
+      position: fixed; inset: 0 0 auto; z-index: 100;
+      padding: 0 40px; height: 56px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: #f5f0e8;
+      border-bottom: 1.5px solid #0d0b08;
+    }
+    .nav-brand {
+      font-weight: 900; font-size: 11px; letter-spacing: 0.2em;
+      text-transform: uppercase; text-decoration: none; color: #0d0b08;
+    }
+    .nav-issue {
+      font-size: 10px; letter-spacing: 0.15em; color: #7a7060;
+      font-style: italic;
+    }
+    .nav-links { display: flex; gap: 32px; }
+    .nav-links a {
+      font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
+      text-decoration: none; color: #7a7060;
+    }
+    .nav-links a:hover { color: #0d0b08; }
+
+    /* ── COVER ── */
+    #cover {
+      height: 100vh; position: relative; overflow: hidden;
+    }
+    .cover-img {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      filter: brightness(0.7);
+    }
+    .cover-body {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 48px 40px 64px;
+    }
+    .cover-issue {
+      font-size: 10px; letter-spacing: 0.32em; text-transform: uppercase;
+      color: rgba(245,240,232,0.6); margin-bottom: 20px; font-weight: 700;
+    }
+    .cover-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(72px,14vw,200px);
+      font-weight: 600; font-style: italic;
+      line-height: 0.85; letter-spacing: -0.02em;
+      color: #f5f0e8;
+      text-shadow: 0 2px 60px rgba(0,0,0,0.5);
+    }
+    .cover-sub {
+      margin-top: 32px;
+      display: flex; align-items: flex-end; justify-content: space-between; gap: 40px;
+    }
+    .cover-tagline {
+      max-width: 420px;
+      font-size: 13px; line-height: 1.75; color: rgba(245,240,232,0.65);
+      font-weight: 300;
+      border-left: 2px solid rgba(245,240,232,0.3); padding-left: 18px;
+    }
+    .cover-folio {
+      font-size: 9px; letter-spacing: 0.3em; text-transform: uppercase;
+      color: rgba(245,240,232,0.4); writing-mode: vertical-rl;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      padding: 40px 40px 0;
+      border-top: 1.5px solid #0d0b08;
+      display: flex; justify-content: space-between; align-items: baseline;
+    }
+    .divider-title {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.26em; text-transform: uppercase;
+    }
+    .divider-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 80px; font-weight: 300; font-style: italic;
+      line-height: 1; color: rgba(13,11,8,0.1);
+    }
+
+    /* ── Editorial spread ── */
+    .spread {
+      display: grid; align-items: stretch;
+      min-height: 70vh;
+      margin-bottom: 0;
+    }
+    .spread.img-left  { grid-template-columns: 55% 1fr; }
+    .spread.img-right { grid-template-columns: 1fr 55%; }
+
+    .spread-img {
+      overflow: hidden; position: relative;
+    }
+    .spread-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      display: block;
+      transition: transform 0.8s ease;
+    }
+    .spread:hover .spread-img img { transform: scale(1.02); }
+
+    /* rotated folio on image edge */
+    .spread-img .folio {
+      position: absolute; bottom: 32px; right: 0;
+      writing-mode: vertical-rl;
+      font-size: 9px; letter-spacing: 0.24em; text-transform: uppercase;
+      color: rgba(255,255,255,0.4); padding-right: 12px;
+    }
+    .spread.img-right .spread-img .folio { right: auto; left: 0; padding-right: 0; padding-left: 12px; writing-mode: vertical-lr; }
+
+    .spread-text {
+      padding: 64px 56px;
+      display: flex; flex-direction: column; justify-content: center;
+      border-bottom: 1.5px solid #0d0b08;
+      position: relative;
+    }
+    /* crop mark on spread text corner */
+    .spread-text::before {
+      content: ''; position: absolute;
+      top: 20px; right: 20px;
+      width: 20px; height: 1px; background: rgba(0,0,0,0.15);
+      box-shadow: 10px 0 0 0 rgba(0,0,0,0.15), 10px -10px 0 0 rgba(0,0,0,0.15);
+    }
+
+    .spread-cat {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase;
+      color: #7a7060; margin-bottom: 24px;
+    }
+    .spread-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(32px, 4vw, 64px);
+      font-weight: 300; font-style: italic; line-height: 1.08;
+      letter-spacing: -0.015em;
+      margin-bottom: 28px;
+    }
+    .spread-rule {
+      width: 40px; height: 1.5px; background: #0d0b08;
+      margin-bottom: 28px;
+    }
+    .spread-stmt {
+      font-size: 13.5px; line-height: 1.85; color: #4a4540;
+      margin-bottom: 32px; max-width: 380px;
+    }
+    .spread-medium {
+      font-size: 10.5px; color: #7a7060; letter-spacing: 0.06em;
+      margin-bottom: 20px; line-height: 1.6;
+    }
+    .spread-link {
+      display: inline-block;
+      font-size: 9.5px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase;
+      color: #0d0b08; text-decoration: none;
+      border-bottom: 1.5px solid #0d0b08; padding-bottom: 3px;
+    }
+    .spread-link:hover { color: #5c1820; border-color: #5c1820; }
+
+    /* Full-bleed accent spread (every 3rd work) */
+    .spread-full {
+      position: relative; min-height: 80vh; overflow: hidden;
+    }
+    .spread-full-img {
+      position: absolute; inset: 0;
+      background-size: cover; background-position: center;
+      filter: brightness(0.6);
+    }
+    .spread-full-text {
+      position: relative; z-index: 1;
+      padding: 80px 40px;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      min-height: 80vh;
+    }
+    .spread-full-text .spread-cat { color: rgba(245,240,232,0.5); }
+    .spread-full-text .spread-title { color: #f5f0e8; font-size: clamp(48px, 7vw, 100px); }
+    .spread-full-text .spread-stmt { color: rgba(245,240,232,0.65); }
+    .spread-full-text .spread-medium { color: rgba(245,240,232,0.4); }
+    .spread-full-text .spread-link { color: #f5f0e8; border-color: rgba(245,240,232,0.5); }
+
+    /* ── About ── */
+    #about {
+      border-top: 1.5px solid #0d0b08;
+      display: grid; grid-template-columns: 1fr 1fr;
+    }
+    .about-image {
+      min-height: 600px; overflow: hidden;
+      background-size: cover; background-position: top center;
+      border-right: 1.5px solid #0d0b08;
+    }
+    .about-text {
+      padding: 80px 56px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .about-lbl {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.32em; text-transform: uppercase;
+      color: #7a7060; margin-bottom: 28px;
+    }
+    .about-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(44px, 6vw, 80px);
+      font-weight: 300; font-style: italic; line-height: 0.95;
+      margin-bottom: 40px;
+    }
+    .about-bio {
+      font-size: 13.5px; line-height: 1.9; color: #4a4540;
+      margin-bottom: 36px;
+    }
+    .about-info {
+      font-size: 10px; letter-spacing: 0.12em; line-height: 2.5;
+      color: #7a7060; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 20px;
+    }
+
+    /* ── Footer / Masthead ── */
+    footer {
+      border-top: 1.5px solid #0d0b08;
+      padding: 28px 40px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    footer p { font-size: 9.5px; letter-spacing: 0.12em; color: #7a7060; }
+    footer .masthead {
+      font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: #b0a898;
+    }
+
+    /* ── Reveal ── */
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.9s ease, transform 0.9s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav-brand" href="#">Li Weiyi</a>
+    <span class="nav-issue">Selected Works, 2024–2025</span>
+    <div class="nav-links">
+      <a href="#">Works</a>
+      <a href="#">Archive</a>
+      <a href="#">About</a>
+      <a href="#">中文</a>
+    </div>
+  </nav>
+
+  <!-- Cover -->
+  <section id="cover">
+    <div class="cover-img" id="cover-bg"></div>
+    <div class="cover-body">
+      <p class="cover-issue">Li Weiyi · Beijing · b. 2008</p>
+      <h1 class="cover-name">Li<br>Weiyi</h1>
+      <div class="cover-sub">
+        <p class="cover-tagline" id="tagline"></p>
+        <span class="cover-folio">Selected Works · 2024–2025</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works spreads -->
+  <div id="works-spreads"></div>
+
+  <!-- About -->
+  <section id="about">
+    <div class="about-image" id="about-img"></div>
+    <div class="about-text reveal">
+      <p class="about-lbl">About the Artist</p>
+      <h2 class="about-name">Li<br>Weiyi</h2>
+      <p class="about-bio" id="bio"></p>
+      <div class="about-info" id="about-info"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p id="yr"></p>
+    <p class="masthead">Painting · Sculpture · Installation · Beijing</p>
+    <p>li-weiyi.com</p>
+  </footer>
+
+  <script>
+    const D = SITE_DATA;
+    document.getElementById('tagline').textContent = D.artist.tagline;
+    document.getElementById('bio').textContent     = D.artist.bio;
+    document.getElementById('yr').textContent      = `© ${new Date().getFullYear()} Li Weiyi`;
+
+    const featured = D.works.filter(w => w.featured);
+
+    // Cover bg = first work
+    document.getElementById('cover-bg').style.backgroundImage = `url('${featured[0].heroImage}')`;
+
+    // About image = second work image if available
+    document.getElementById('about-img').style.backgroundImage = `url('${D.artist.artistPhoto}')`;
+
+    // About info
+    document.getElementById('about-info').innerHTML =
+      D.artist.education.map(e => `<span>${e.year} — ${e.en}</span>`).join('') +
+      `<span>Contact: ${D.artist.contact}</span>`;
+
+    // Spreads
+    const spreadsEl = document.getElementById('works-spreads');
+    spreadsEl.innerHTML = featured.map((w, i) => {
+      const isFullBleed = (i === 2); // 3rd work full-bleed
+      const isLeft  = i % 2 === 0;
+
+      const textHtml = `
+        <p class="spread-cat">${w.category} · ${w.year}</p>
+        <h2 class="spread-title">${w.title}</h2>
+        <div class="spread-rule"></div>
+        <p class="spread-stmt">${w.statement}</p>
+        <p class="spread-medium">${w.medium}</p>
+        <a class="spread-link" href="work.html?id=${w.id}">View Work →</a>
+      `;
+
+      if (isFullBleed) {
+        return `
+          <div class="divider reveal">
+            <span class="divider-title">Work No. 0${i+1}</span>
+            <span class="divider-num">0${i+1}</span>
+          </div>
+          <div class="spread-full reveal">
+            <div class="spread-full-img" style="background-image:url('${w.heroImage}')"></div>
+            <div class="spread-full-text">
+              ${textHtml}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="divider reveal">
+          <span class="divider-title">Work No. 0${i+1}</span>
+          <span class="divider-num">0${i+1}</span>
+        </div>
+        <div class="spread ${isLeft ? 'img-left' : 'img-right'} reveal">
+          ${isLeft
+            ? `<div class="spread-img"><img src="${w.heroImage}" alt="${w.title}" loading="lazy"><span class="folio">0${i+1} / ${w.title}</span></div>
+               <div class="spread-text">${textHtml}</div>`
+            : `<div class="spread-text">${textHtml}</div>
+               <div class="spread-img"><img src="${w.heroImage}" alt="${w.title}" loading="lazy"><span class="folio">0${i+1} / ${w.title}</span></div>`
+          }
+        </div>
+      `;
+    }).join('');
+
+    // Reveal
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('in');
+    }), { threshold: 0.06 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  </script>
+</body>
+</html>

@@ -17,8 +17,8 @@
       `<span class="en">${d.artist.tagline}</span>` +
       `<span class="zh">${d.artist.taglineZh}</span>`;
     document.querySelector('.hero-eyebrow').innerHTML =
-      `<span class="en">Gaze · Pressure · Body · Memory</span>` +
-      `<span class="zh">凝视 · 压力 · 身体 · 记忆</span>`;
+      `<span class="en">The Watched Self: Gaze, Pressure, and the Reconstruction of Identity</span>` +
+      `<span class="zh">被观看的自我：成长压力、身体感知与心理空间</span>`;
 
     // Hero photo
     const photoEl = document.getElementById('hero-photo');
@@ -83,10 +83,15 @@
       workContainer.appendChild(section);
     });
 
-    // About
+    //About
+    /*
     document.querySelector('.about-statement').innerHTML =
       `<span class="en">${d.artist.bio}</span>` +
       `<span class="zh">${d.artist.bioZh}</span>`;
+    */
+    document.querySelector('.about-statement').innerHTML =
+      `<span class="en">${d.artist.bio.replace(/\n/g, '<br>')}</span>` +
+      `<span class="zh">${d.artist.bioZh.replace(/\n/g, '<br>')}</span>`;
 
     const metaEl = document.querySelector('.about-meta');
     metaEl.innerHTML = '';
