@@ -55,12 +55,19 @@
   }
 
 
+  function archiveImageSrc(src) {
+    return src.replace('images/works/', 'images/thumbs/');
+  }
+
+
   // ── Render a single archive card ─────────────────────────────
   function renderCard(work) {
+    const imageSrc = archiveImageSrc(work.heroImage);
+
     return `
       <a class="arc-card" href="work.html?id=${work.id}">
         <div class="arc-card-img-wrap">
-          <img src="${work.heroImage}" alt="${work.title}" loading="lazy">
+          <img src="${imageSrc}" alt="${work.title}" loading="lazy" decoding="async">
         </div>
         <p class="arc-card-meta">
           <span class="en">${work.category} · ${work.year}</span>
