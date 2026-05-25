@@ -11,6 +11,11 @@
   const work   = SITE_DATA.works.find(w => w.id === id);
 
 
+  function displayImageSrc(src) {
+    return src.replace('images/works/', 'images/display/');
+  }
+
+
   // ── Gallery layout builder ────────────────────────────────────
   function buildGallery(work) {
     const imgs = work.images;
@@ -22,7 +27,7 @@
       const layoutClass = n === 2 ? 'wd-gallery--2' : 'wd-gallery--3';
       const figures = imgs.map((img, i) =>
         `<figure class="wd-fig wd-fig--${i}">
-          <img src="${img}" alt="${work.title} — ${i + 1}" loading="lazy">
+          <img src="${displayImageSrc(img)}" alt="${work.title} — ${i + 1}" loading="lazy" decoding="async">
         </figure>`
       ).join('');
       return `<div class="wd-gallery ${layoutClass} reveal">${figures}</div>`;
@@ -31,7 +36,7 @@
     // 4+ images: paginator (one at a time, full size)
     const slides = imgs.map((img, i) =>
       `<figure class="wd-pager-slide${i === 0 ? ' active' : ''}">
-        <img src="${img}" alt="${work.title} — ${i + 1}" loading="lazy">
+        <img src="${displayImageSrc(img)}" alt="${work.title} — ${i + 1}" loading="lazy" decoding="async">
       </figure>`
     ).join('');
 
@@ -106,6 +111,7 @@
     document.title = `${work.title} · Li Weiyi`;
 
     const galleryHtml = buildGallery(work);
+    const heroImage = displayImageSrc(work.heroImage);
 
     const fmt = s => s.replace(/\n\n/g, '<br><br>');
     const statementHtml = work.statement
@@ -117,7 +123,7 @@
 
     detail.innerHTML = `
       <div class="wd-hero reveal">
-        <img class="wd-hero-img" src="${work.heroImage}" alt="${work.title}">
+        <img class="wd-hero-img" src="${heroImage}" alt="${work.title}" decoding="async">
       </div>
       <div class="wd-body">
         <div class="wd-info reveal">
