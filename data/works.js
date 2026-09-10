@@ -237,12 +237,12 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       medium:     "Charcoal and acrylic on paper",
       mediumZh:   "纸本炭笔、丙烯",
 
-      heroImage:      "images/works/drawing-bracelet-20260910.jpg",
+      heroImage:      "images/works/drawing-bracelet-20260910.webp",
       images: [
-        "images/works/drawing-desk-20260910.jpg",
-        "images/works/drawing-03.jpg",
-        "images/works/drawing-portrait-20260910.jpg",
-        "images/works/drawing-food.jpg",
+        "images/works/drawing-desk-20260910.webp",
+        "images/works/drawing-03.webp",
+        "images/works/drawing-portrait-20260910.webp",
+        "images/works/drawing-food.webp",
       ],
 
       statement:   "This series comes from sustained observation of everyday objects. By studying their structure, light, texture, and details, I trained myself to look more slowly and understand the relationships between forms. These drawings became an important foundation for how I later approached space, the body, and material in my work.",
