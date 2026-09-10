@@ -112,15 +112,15 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       "series": "SFK",
       "medium": "Silkscreen on paper, acrylic on canvas and wood, sugar, mixed media",
       "mediumZh": "纸本丝网版、布面及木板丙烯、糖、综合材料",
-      "heroImage": "images/works/urban-sugar-painting.jpg",
+      "heroImage": "images/works/urban-sugar-installation.jpg",
       "images": [
+        "images/works/urban-sugar-installation-detail.jpg",
+        "images/works/urban-sugar-painting.jpg",
         "images/works/urban-sugar-print-01.jpg",
         "images/works/urban-sugar-print-02.jpg",
         "images/works/urban-sugar-print-03.jpg",
         "images/works/urban-sugar-scaffolding.jpg",
-        "images/works/urban-sugar-workers.jpg",
-        "images/works/urban-sugar-installation.jpg",
-        "images/works/urban-sugar-installation-detail.jpg"
+        "images/works/urban-sugar-workers.jpg"
       ],
       "statementZh": "这件作品来自我对北京东城城市修复的观察。许多老建筑在被重新修缮和包装后变得更加整齐，却也逐渐失去原本的生活痕迹。我通过丝网版、绘画和立体装置研究建筑被脚手架、绿网和新表面覆盖的状态，并用糖作为材料。糖透明、明亮，却容易融化和破裂，像一层漂亮但脆弱的“糖衣”，覆盖在真实的城市生活之上。",
       "statement": "This project grew out of my observations of urban restoration in Dongcheng, Beijing. Many old buildings become tidier after being renovated and repackaged, yet gradually lose the traces of everyday life they once held. Through silkscreen prints, painting, and three-dimensional installation, I explore buildings covered in scaffolding, green mesh, and new surfaces, using sugar as a material. Transparent and luminous, sugar is also prone to melting and breaking. It becomes a beautiful but fragile “sugar-coating” over the reality of urban life.",
