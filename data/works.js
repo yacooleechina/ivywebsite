@@ -104,6 +104,8 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
 
     {
       "id": "beneath-the-sugar-coating",
+      "statusNote": "Sugar coating not yet poured",
+      "statusNoteZh": "未完成糖衣浇筑",
       "title": "Beneath the Sugar-Coating",
       "titleZh": "糖衣之下",
       "year": "",
@@ -129,6 +131,8 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
 
     {
       "id": "city-walk",
+      "statusNote": "Unretouched photos",
+      "statusNoteZh": "未修图版",
       "title": "City Walk",
       "titleZh": "City Walk",
       "year": "",

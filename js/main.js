@@ -51,6 +51,7 @@
         <span class="work-idx">${String(i + 1).padStart(2, '0')}</span>
         <div class="work-img">
           <img src="${work.heroImage}" alt="${work.title}" loading="lazy">
+          ${work.statusNote ? `<p class="project-status"><span class="en">${work.statusNote}</span><span class="zh">${work.statusNoteZh}</span></p>` : ''}
         </div>
         <div class="work-text">
           <span class="work-meta">
