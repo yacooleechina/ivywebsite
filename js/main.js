@@ -31,7 +31,7 @@
     }
 
     // Works
-    const featured = d.works.filter(w => w.featured);
+    const featured = d.works.filter(w => w.featured && !w.hidden);
     const workContainer = document.getElementById('works-container');
     workContainer.innerHTML = '';
 

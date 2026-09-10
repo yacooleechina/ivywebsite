@@ -8,7 +8,7 @@
   // ── Get work from URL ─────────────────────────────────────────
   const params = new URLSearchParams(window.location.search);
   const id     = params.get('id');
-  const work   = SITE_DATA.works.find(w => w.id === id);
+  const work   = SITE_DATA.works.find(w => w.id === id && !w.hidden);
 
 
   function displayImageSrc(src) {

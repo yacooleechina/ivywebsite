@@ -9,7 +9,7 @@
   function groupByCollection(works) {
     const showAPDrawing = SITE_DATA.showAPDrawingInArchive === true;
     const archived = works.filter(w =>
-      w.archived === true &&
+      w.archived === true && !w.hidden &&
       (showAPDrawing || w.collection !== 'AP Drawing · 2026')
     );
     const groups = {};
