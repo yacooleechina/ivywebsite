@@ -24,17 +24,17 @@ const SITE_DATA = {
     artistPhoto: "images/artist.jpg",
 
     // 首页一句话
-    tagline: "My work comes from the feelings I have experienced while growing up — being watched, judged, and pressured — and how these experiences have shaped the way I see my body and myself.",
-    taglineZh: "我的创作源于成长过程中被注视、被评判和被施压的经验，并探索这些经历如何塑造我看待身体与自我的方式。",
+    tagline: "My work begins with the experience of being watched, judged, and pressured, and explores how individuals are shaped by spaces, systems, and collective behaviour.",
+    taglineZh: "我的创作从被注视、被评判和被施压的经验出发，探索空间、系统与集体行为如何塑造个体。",
 
     // About 页的完整介绍
-    bio: `Li Weiyi is a young artist based in Beijing, working across painting, sculpture, and installation. Her work grows from personal memory, everyday observation, and the emotional pressures she has experienced while growing up. 
-    
-Through images of rooms, faces, bodies, and fragmented objects, she explores how being watched, judged, and pressured can reshape a person’s sense of self. Her practice often moves between two-dimensional and three-dimensional forms, turning inner emotions into physical spaces, surfaces, and objects.`,
-    
-    bioZh: `李惟祎是一位生活并学习于北京的年轻艺术创作者，主要以绘画、雕塑和装置进行创作。她的作品源于个人记忆、日常观察，以及成长过程中所经历的情绪压力。
+    bio: `Li Weiyi is a young artist based in Beijing, working across painting, printmaking, sculpture, and installation. Her work grows from personal memory and everyday observation, connecting the emotional pressures of growing up with the spaces and social patterns that shape individual experience.
 
-通过房间、面孔、身体和碎片化物件等图像，她探索被注视、被评判和被施压的经验如何改变一个人对自我的感知。她的创作常在二维与三维之间转换，将内在情绪转化为具体的空间、表面与物体。`,
+Through bodies, domestic spaces, urban structures, and repeated forms, she explores how being watched, judged, and pressured can reshape a person’s sense of self, and how individuals are shaped by spaces, systems, and collective behaviour. Moving between two-dimensional and three-dimensional forms, her practice connects intimate experiences with observations of urban restoration and shared routes through the city, examining how belonging, conformity, and change affect the way people inhabit their surroundings.`,
+
+    bioZh: `李惟祎是一位生活并学习于北京的年轻艺术创作者，以绘画、版画、雕塑和装置进行创作。她的作品源于个人记忆与日常观察，将成长中的情绪压力与塑造个体经验的空间和社会行为模式联系起来。
+
+通过身体、居住空间、城市结构与重复的形态，她探索被注视、被评判和被施压的经验如何改变自我感知，以及空间、系统与集体行为如何塑造个体。她的创作在二维与三维之间展开，将私密的个人经验与对城市修复、共同游览路线的观察相联系，思考归属、趋同与变化如何影响人们感知和置身于周围环境的方式。`,
 
     education: [
       { year: "2024-2027", en: "Beijing Huiwen Middle School", zh: "北京汇文中学" },
@@ -154,32 +154,6 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
     },
 
     {
-      id:         "memory",
-      title:      "Memory",
-      titleZh:    "记忆",
-      year:       2025,
-      category:   "Relief Sculpture",
-      categoryZh: "浮雕",
-      series:     "RISD Pre-College",
-      medium:     "Superlight clay, aluminum foil, white latex, acrylic and gesso on canvas",
-      mediumZh:   "超轻黏土、铝箔、白乳胶、丙烯、石膏底料、画布",
-
-      heroImage:      "images/works/relief-01.jpg",
-      images: [
-        "images/works/relief-02.jpg",
-        "images/works/relief-03.jpg", 
-        "images/works/relief-04.jpg",
-      ],
-
-    
-      statementZh: "这件浮雕由重复的眼睛、扭曲的面孔和不平整的表面构成，将记忆转化为一种具体而不安的形态。作品暗示被注视和被评判的经验如何留存在身体中，并在时间中以碎片化的图像重新浮现。",
-      statement: "Built from repeated eyes, distorted faces, and uneven surfaces, this relief sculpture turns memory into something physical and unsettling. The work suggests how being seen and judged can remain in the body, resurfacing as fragmented images over time.",
-
-
-      featured: true,
-    },
-
-    {
       id:         "trapped-in-the-smile",
       title:      "Trapped in the Smile",
       titleZh:    "困于微笑",
@@ -223,6 +197,32 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
 
       statement: "This series reflects on the loneliness I felt growing up as an only child and the companionship I found in my dog. At the same time, I began to realize that my dog was always waiting at home, carrying its own loneliness. Through fragmented domestic scenes, I move from the feeling of being watched by others toward seeing the waiting and solitude of another life.",
       statementZh: "这组作品回应了我作为独生子女在成长过程中感受到的孤独，以及我从小狗身上获得的陪伴。与此同时，我也开始意识到，小狗总是在家中等待，承受着它自己的孤独。通过碎片化的家庭场景，我从被他人注视的感受出发，逐渐看见另一个生命的等待与孤独。",
+      featured: true,
+    },
+
+    {
+      id:         "memory",
+      title:      "Memory",
+      titleZh:    "记忆",
+      year:       2025,
+      category:   "Relief Sculpture",
+      categoryZh: "浮雕",
+      series:     "RISD Pre-College",
+      medium:     "Superlight clay, aluminum foil, white latex, acrylic and gesso on canvas",
+      mediumZh:   "超轻黏土、铝箔、白乳胶、丙烯、石膏底料、画布",
+
+      heroImage:      "images/works/relief-01.jpg",
+      images: [
+        "images/works/relief-02.jpg",
+        "images/works/relief-03.jpg", 
+        "images/works/relief-04.jpg",
+      ],
+
+    
+      statementZh: "这件浮雕由重复的眼睛、扭曲的面孔和不平整的表面构成，将记忆转化为一种具体而不安的形态。作品暗示被注视和被评判的经验如何留存在身体中，并在时间中以碎片化的图像重新浮现。",
+      statement: "Built from repeated eyes, distorted faces, and uneven surfaces, this relief sculpture turns memory into something physical and unsettling. The work suggests how being seen and judged can remain in the body, resurfacing as fragmented images over time.",
+
+
       featured: true,
     },
 

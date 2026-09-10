@@ -17,8 +17,8 @@
       `<span class="en">${d.artist.tagline}</span>` +
       `<span class="zh">${d.artist.taglineZh}</span>`;
     document.querySelector('.hero-eyebrow').innerHTML =
-      `<span class="en">The Watched Self: Gaze, Pressure, and the Reconstruction of Identity</span>` +
-      `<span class="zh">被观看的自我：成长压力、身体感知与心理空间</span>`;
+      `<span class="en">The Shaped Self: Gaze, Space, and Collective Behaviour</span>` +
+      `<span class="zh">被塑造的自我：注视、空间与集体行为</span>`;
 
     // Hero photo
     const photoEl = document.getElementById('hero-photo');
