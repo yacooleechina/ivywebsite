@@ -114,15 +114,15 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       "series": "SFK",
       "medium": "Silkscreen on paper, acrylic on canvas and wood, sugar, mixed media",
       "mediumZh": "纸本丝网版、布面及木板丙烯、糖、综合材料",
-      "heroImage": "images/works/urban-sugar-installation.jpg",
+      "heroImage": "images/works/urban-sugar-installation.webp",
       "images": [
-        "images/works/urban-sugar-installation-detail.jpg",
-        "images/works/urban-sugar-painting.jpg",
-        "images/works/urban-sugar-print-01.jpg",
-        "images/works/urban-sugar-print-02.jpg",
-        "images/works/urban-sugar-print-03.jpg",
-        "images/works/urban-sugar-scaffolding.jpg",
-        "images/works/urban-sugar-workers.jpg"
+        "images/works/urban-sugar-installation-detail.webp",
+        "images/works/urban-sugar-painting.webp",
+        "images/works/urban-sugar-print-01.webp",
+        "images/works/urban-sugar-print-02.webp",
+        "images/works/urban-sugar-print-03.webp",
+        "images/works/urban-sugar-scaffolding.webp",
+        "images/works/urban-sugar-workers.webp"
       ],
       "statementZh": "这件作品来自我对北京东城城市修复的观察。许多老建筑在被重新修缮和包装后变得更加整齐，却也逐渐失去原本的生活痕迹。我通过丝网版、绘画和立体装置研究建筑被脚手架、绿网和新表面覆盖的状态，并用糖作为材料。糖透明、明亮，却容易融化和破裂，像一层漂亮但脆弱的“糖衣”，覆盖在真实的城市生活之上。",
       "statement": "This project grew out of my observations of urban restoration in Dongcheng, Beijing. Many old buildings become tidier after being renovated and repackaged, yet gradually lose the traces of everyday life they once held. Through silkscreen prints, painting, and three-dimensional installation, I explore buildings covered in scaffolding, green mesh, and new surfaces, using sugar as a material. Transparent and luminous, sugar is also prone to melting and breaking. It becomes a beautiful but fragile “sugar-coating” over the reality of urban life.",
@@ -141,12 +141,12 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       "series": "SFK",
       "medium": "Wood, metal wire, expanding foam, clay, plaster bandages, spray paint and acrylic",
       "mediumZh": "木板、金属丝、发泡胶、黏土、石膏绷带、喷漆、丙烯",
-      "heroImage": "images/works/city-walk-01.jpg",
+      "heroImage": "images/works/city-walk-01.webp",
       "images": [
-        "images/works/city-walk-02.jpg",
-        "images/works/city-walk-03.jpg",
-        "images/works/city-walk-04.jpg",
-        "images/works/city-walk-05.jpg"
+        "images/works/city-walk-02.webp",
+        "images/works/city-walk-03.webp",
+        "images/works/city-walk-04.webp",
+        "images/works/city-walk-05.webp"
       ],
       "statementZh": "《City Walk》来自我对“网红打卡”现象的观察。很多人跟着社交媒体推荐，去相同的景点、走相似的路线、拍相似的照片。作品由五组拟人化腿部雕塑组成，以木板、金属丝搭建骨架，再结合发泡胶、黏土和石膏绷带塑形，并用喷漆和丙烯处理表面。重复、拉长和扭曲的腿部形态，表现人们不断跟随热门路线时，个人化的城市体验逐渐变得相似。",
       "statement": "City Walk grew out of my observations of the trend of visiting popular spots to take photos for social media. Following social media recommendations, many people visit the same attractions, walk similar routes, and take similar photographs. The work consists of five groups of anthropomorphic leg sculptures. I built their armatures from wood and metal wire, shaped them with expanding foam, clay, and plaster bandages, and finished the surfaces with spray paint and acrylic. The repeated, elongated, and twisted legs suggest how individual experiences of the city gradually become alike as people keep following popular routes.",
