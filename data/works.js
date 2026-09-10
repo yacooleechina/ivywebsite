@@ -186,11 +186,11 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       medium:     "Charcoal and acrylic on paper",
       mediumZh:   "纸本炭笔、丙烯",
 
-      heroImage:      "images/works/drawing-01.jpg",
+      heroImage:      "images/works/drawing-bracelet-20260910.jpg",
       images: [
-        "images/works/drawing-02.jpg",
+        "images/works/drawing-desk-20260910.jpg",
         "images/works/drawing-03.jpg",
-        //"images/works/drawing-portrait.jpg",
+        "images/works/drawing-portrait-20260910.jpg",
         "images/works/drawing-food.jpg",
       ],
 
@@ -283,7 +283,7 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       statement:   "Layered portraits and musical notation describe a private listening moment where rap becomes an inner rhythm.",
       statementZh: "多重肖像与乐谱元素表现独自听歌的时刻，说唱音乐在此转化为内在节奏。",
       featured: false,
-      archived: true,
+      archived: false, // Hidden from Archive
       archiveOrder: 4,
       collection:   "AP Drawing · 2026",
       collectionZh: "AP Drawing 2026",
@@ -305,7 +305,7 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       statement:   "A quiet practice scene is filled with graffiti-like color and marks, connecting personal study with street energy.",
       statementZh: "安静的练习场景被涂鸦般的色彩与痕迹包围，将个人练习与街头能量连接起来。",
       featured: false,
-      archived: true,
+      archived: false, // Hidden from Archive
       archiveOrder: 5,
       collection:   "AP Drawing · 2026",
       collectionZh: "AP Drawing 2026",
@@ -327,7 +327,7 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       statement:   "Multiple faces capture the shifting emotions of singing: relaxed, joyful, intense, and absorbed in sound.",
       statementZh: "多张面孔捕捉唱歌时不断变化的情绪：放松、开心、强烈，并沉浸在声音之中。",
       featured: false,
-      archived: true,
+      archived: false, // Hidden from Archive
       archiveOrder: 6,
       collection:   "AP Drawing · 2026",
       collectionZh: "AP Drawing 2026",
@@ -349,7 +349,7 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       statement:   "Music notes, instruments, and glowing color turn listening into a surreal inner landscape.",
       statementZh: "音符、乐器与发光的色彩把聆听体验转化为超现实的内心景观。",
       featured: false,
-      archived: true,
+      archived: false, // Hidden from Archive
       archiveOrder: 7,
       collection:   "AP Drawing · 2026",
       collectionZh: "AP Drawing 2026",
@@ -371,7 +371,7 @@ Through images of rooms, faces, bodies, and fragmented objects, she explores how
       statement:   "A dreamlike stage scene expands the performer into a larger imagined self, blending music, fantasy, and aspiration.",
       statementZh: "梦境般的舞台场景将表演者扩展为更大的想象自我，融合音乐、幻想与渴望。",
       featured: false,
-      archived: true,
+      archived: false, // Hidden from Archive
       archiveOrder: 8,
       collection:   "AP Drawing · 2026",
       collectionZh: "AP Drawing 2026",
