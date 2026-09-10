@@ -28,11 +28,11 @@ const SITE_DATA = {
     taglineZh: "我的创作从成长中被注视、被评价和承受压力的经历出发，关注周围的环境、他人的目光，以及人们跟随群体的行为，如何影响我们看待自己、感受身体和做出选择。",
 
     // About 页的完整介绍
-    bio: `Li Weiyi is a young artist based in Beijing, working across painting, printmaking, sculpture, and installation. Her work grows from personal memory and everyday observation, connecting the emotional pressures of growing up with the spaces and social patterns that shape individual experience.
+    bio: `Li Weiyi is a young artist based in Beijing, working across painting, digital painting, sculpture, and installation. Her work grows from personal memory and everyday observation, connecting the emotional pressures of growing up with the spaces and social patterns that shape individual experience.
 
 Through bodies, domestic spaces, urban structures, and repeated forms, she explores how being watched, judged, and pressured can reshape a person’s sense of self, and how individuals are shaped by spaces, systems, and collective behaviour. Moving between two-dimensional and three-dimensional forms, her practice connects intimate experiences with observations of urban restoration and shared routes through the city, examining how belonging, conformity, and change affect the way people inhabit their surroundings.`,
 
-    bioZh: `李惟祎是一位生活并学习于北京的年轻艺术创作者，以绘画、版画、雕塑和装置进行创作。她的作品源于个人记忆与日常观察，将成长中的情绪压力与塑造个体经验的空间和社会行为模式联系起来。
+    bioZh: `李惟祎是一位生活并学习于北京的年轻艺术创作者，以绘画、板绘、雕塑和装置进行创作。她的作品源于个人记忆与日常观察，将成长中的情绪压力与塑造个体经验的空间和社会行为模式联系起来。
 
 通过身体、居住空间、城市结构与重复的形态，她探索被注视、被评判和被施压的经验如何改变自我感知，以及空间、系统与集体行为如何塑造个体。她的创作在二维与三维之间展开，将私密的个人经验与对城市修复、共同游览路线的观察相联系，思考归属、趋同与变化如何影响人们感知和置身于周围环境的方式。`,
 
