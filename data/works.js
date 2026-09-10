@@ -24,8 +24,8 @@ const SITE_DATA = {
     artistPhoto: "images/artist.jpg",
 
     // 首页一句话
-    tagline: "My work begins with the experience of being watched, judged, and pressured, and explores how individuals are shaped by spaces, systems, and collective behaviour.",
-    taglineZh: "我的创作从被注视、被评判和被施压的经验出发，探索空间、系统与集体行为如何塑造个体。",
+    tagline: "My work begins with experiences of being watched, judged, and pressured, and explores how bodies and identities are shaped by the spaces and collective behaviours around them.",
+    taglineZh: "我的创作从被注视、被评判和被施压的经历出发，探索身体与身份如何被周围的空间和集体行为所塑造。",
 
     // About 页的完整介绍
     bio: `Li Weiyi is a young artist based in Beijing, working across painting, printmaking, sculpture, and installation. Her work grows from personal memory and everyday observation, connecting the emotional pressures of growing up with the spaces and social patterns that shape individual experience.
