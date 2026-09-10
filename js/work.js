@@ -128,8 +128,8 @@
       <div class="wd-body">
         <div class="wd-info reveal">
           <span class="wd-num">
-            <span class="en">${work.category} · ${work.year}</span>
-            <span class="zh">${work.categoryZh} · ${work.year}</span>
+            <span class="en">${work.category}${work.year ? ` · ${work.year}` : ''}</span>
+            <span class="zh">${work.categoryZh}${work.year ? ` · ${work.year}` : ''}</span>
           </span>
           <h1 class="wd-title">
             <span class="en">${work.title}</span>

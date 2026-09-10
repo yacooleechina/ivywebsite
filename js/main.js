@@ -54,8 +54,8 @@
         </div>
         <div class="work-text">
           <span class="work-meta">
-            <span class="en">${work.category} &nbsp;·&nbsp; ${work.year}</span>
-            <span class="zh">${work.categoryZh} &nbsp;·&nbsp; ${work.year}</span>
+            <span class="en">${work.category}${work.year ? ` &nbsp;·&nbsp; ${work.year}` : ''}</span>
+            <span class="zh">${work.categoryZh}${work.year ? ` &nbsp;·&nbsp; ${work.year}` : ''}</span>
           </span>
           <h2 class="work-title">
             <span class="en">${work.title}</span>
