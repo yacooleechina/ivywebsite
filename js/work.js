@@ -124,7 +124,6 @@
     detail.innerHTML = `
       <div class="wd-hero reveal">
         <img class="wd-hero-img" src="${heroImage}" alt="${work.title}" decoding="async">
-        ${work.statusNote ? `<p class="project-status"><span class="en">${work.statusNote}</span><span class="zh">${work.statusNoteZh}</span></p>` : ''}
       </div>
       <div class="wd-body">
         <div class="wd-info reveal">

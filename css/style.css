@@ -730,5 +730,3 @@ footer span {
 
 /* Project cover status */
 .project-status { color: #c9bda9; font-size: 12px; line-height: 1.6; letter-spacing: .06em; margin-top: 14px; }
-.wd-hero { position: relative; }
-.wd-hero > .project-status { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); margin: 0; padding: 7px 14px; background: rgba(12,10,8,.88); border: 1px solid rgba(201,189,169,.25); white-space: nowrap; }
