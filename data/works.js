@@ -139,22 +139,22 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
           "alt": "80cm*100cm\nAcrylic on canva\n30cm*60cm\nAcrylic on wood\n30cm*30cm\nAcrylic on wood"
         },
         {
-          "src": "images/project-pages/dental-revised-20261019-5.webp",
+          "src": "images/project-pages/dental-clean-labels-20261019-5.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, sugar, pigment, silk screen mesh"
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in"
         },
         {
-          "src": "images/project-pages/dental-revised-20261019-6.webp",
+          "src": "images/project-pages/dental-clean-labels-20261019-6.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, \nsugar, pigment, silk screen mesh"
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in"
         },
         {
-          "src": "images/project-pages/dental-revised-20261019-7.webp",
+          "src": "images/project-pages/dental-clean-labels-20261019-7.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, \nfoam clay, acrylic, sugar, \npigment, silk screen mesh\nThe changing sugar surface holds the project’s central\ntension: a city can look renewed while the relationship\nbetween its appearance and everyday life remains\nunsettled.\n"
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nThe changing sugar surface holds the project’s central\ntension: a city can look renewed while the relationship\nbetween its appearance and everyday life remains\nunsettled.\n"
         }
       ],
       "images": [
