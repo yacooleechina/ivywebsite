@@ -113,7 +113,50 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
       "medium": "Steel bracket, model board, foam clay, acrylic, sugar, pigment, silk screen mesh",
       "mediumZh": "钢支架、模型板、泡沫黏土、丙烯、糖、颜料、丝网",
       "heroImage": "images/works/city-1-1-20261019.webp",
-      "layoutPages": [{"src": "images/project-pages/dental-20261019-1.webp", "width": 2400, "height": 1134, "alt": "The City’s \nDental Ailment\nThis project comes from my personal observation of Beijing \nhutongs. Old courtyards and grey tiled roofs are repeatedly \npolished and renovated, as if the whole city is wrapped in \nan elegant sugar coating. It is similar to using dental \nveneers to cover decayed teeth. Sociologist Sharon Zukin’s \ntheory of the symbolic economy explains this phenomenon: \ncities sometimes rely heavily on cultural symbols to build \nattractive scenery. The city gets a bright, polished exterior, \nyet these changes do not always bring comfort and joy to \nthe people who live there. Residents’ real-life struggles stay \nhidden beneath this neat surface.\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, \nsugar, pigment, silk screen mesh"}, {"src": "images/project-pages/dental-20261019-2.webp", "width": 2400, "height": 1134, "alt": "Inspriation & process\nInspired by the rich folk crafts found within Beijing hutongs, I \ncreated a series of urban landscape artworks. Sugar is the physical \nmedium of my pieces. I pour a layer of sugar over these city scenes. \nOnce cooled, melted sugar glistens brightly, yet it is fragile and \nprone to melting. This material mirrors the beautiful urban vision. \nBeneath this attractive picture lie daily hardships concealed by \nsightseeing landscapes, endangered traditional crafts, and the \nhelplessness of ordinary people amid urban transformation. When \nthese polished scenic facades meet the friction of reality, they crack \nand melt, revealing unresolved underlying problems.\n"}, {"src": "images/project-pages/dental-20261019-3.webp", "width": 2400, "height": 1134, "alt": "The City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm\nThe City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm\nThe City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm"}, {"src": "images/project-pages/dental-20261019-4.webp", "width": 2400, "height": 1134, "alt": "80cm*100cm\nAcrylic on canva\n30cm*60cm\nAcrylic on wood\n30cm*30cm\nAcrylic on wood"}, {"src": "images/project-pages/dental-20261019-5.webp", "width": 2400, "height": 1134, "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, sugar, pigment, silk screen mesh"}, {"src": "images/project-pages/dental-20261019-6.webp", "width": 2400, "height": 1134, "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, \nsugar, pigment, silk screen mesh"}, {"src": "images/project-pages/dental-20261019-7.webp", "width": 2400, "height": 1134, "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, \nfoam clay, acrylic, sugar, \npigment, silk screen mesh\nThrough this series, I investigate the gap between \nrefined appearances and neglected everyday realities. \nThe work reflects how urban construction prioritizes \neye-catching facades while overlooking ordinary \nresidents’ daily lives."}],
+      "layoutPages": [
+        {
+          "src": "images/project-pages/dental-revised-20261019-1.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "The City’s \nDental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, \nsugar, pigment, silk screen mesh\n This project began with my observations of Beijing hutongs,\nwhere renovated courtyards and grey tiled roofs can appear\nincreasingly polished while traces of everyday life become less\nvisible. I imagine this transformation through a dental metaphor:\n a smooth new surface does not necessarily resolve what lies\n beneath.\n \nThrough silkscreen prints, paintings, and an installation, I\nexplore the gap between a city's appearance and the lives it\nholds. Sugar gives the model city a bright, translucent coating,\n but it is also fragile and prone to melting. Its unstable surface\n turns the promise of a lasting, perfected city into something\nvulnerable, inviting a closer look at what renovation preserves\n and what it covers over.\n"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-2.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "Inspiration & process\nI developed the project through hutong observations, silkscreen prints,\npaintings, and a model city. Scaffolding, tiled roofs, and newly finished\nsurfaces became recurring visual elements.\nPouring sugar over the model adds a bright coating without making the\nstructure beneath it disappear. The material can crack or melt, so the\nsurface remains unstable. This tension between an attractive finish and a\nfragile structure is central to the work. Sharon Zukin's concept of the\nsymbolic economy offered a further reference for thinking about how cities\npresent themselves through cultural images.\n"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-3.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "The City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm\nThe City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm\nThe City’s Dental Ailment,2026\nSilkscreen on paper\n30cm*40cm"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-4.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "80cm*100cm\nAcrylic on canva\n30cm*60cm\nAcrylic on wood\n30cm*30cm\nAcrylic on wood"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-5.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, sugar, pigment, silk screen mesh"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-6.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, foam clay, acrylic, \nsugar, pigment, silk screen mesh"
+        },
+        {
+          "src": "images/project-pages/dental-revised-20261019-7.webp",
+          "width": 2400,
+          "height": 1134,
+          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nSteel bracket, model board, \nfoam clay, acrylic, sugar, \npigment, silk screen mesh\nThe changing sugar surface holds the project’s central\ntension: a city can look renewed while the relationship\nbetween its appearance and everyday life remains\nunsettled.\n"
+        }
+      ],
       "images": [
         "images/works/city-6-1-20261019.webp",
         "images/works/city-5-0-20261019.webp",
@@ -134,8 +177,8 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
         "images/works/city-2-5-20261019.webp",
         "images/works/city-2-2-20261019.webp"
       ],
-      "statementZh": "这件作品来自我对北京胡同的观察。老院落和灰瓦屋顶被反复修整、翻新，仿佛城市裹上了一层精致的糖衣，也像用牙齿贴面遮盖蛀牙。我借助莎伦·佐金关于“象征经济”的观点，思考城市如何通过漂亮的外表吸引目光，而居民日常生活中的困难却被藏在背后。\n\n我通过丝网版画、绘画和装置展开创作，并以糖作为材料。糖冷却后晶莹明亮，却脆弱、容易融化。它的开裂与融化呼应了光鲜表面与现实生活之间的落差，包括逐渐消失的传统手艺，以及普通人在城市变化中面对的困境。",
-      "statement": "This project comes from my observations of Beijing hutongs. Old courtyards and grey tiled roofs are repeatedly polished and renovated, as if the city were wrapped in an elegant sugar coating, like dental veneers covering decayed teeth. Drawing on Sharon Zukin’s concept of the symbolic economy, I examine how attractive urban surfaces can conceal residents’ everyday struggles.\n\nThrough silkscreen prints, paintings, and an installation, I use sugar as a material that is bright and translucent, yet fragile and prone to melting. Its cracking and dissolution reflect the gap between polished appearances and unresolved realities, including endangered traditional crafts and the difficulties ordinary people face during urban transformation.",
+      "statementZh": "这件作品来自我对北京胡同的观察。翻新后的院落与灰瓦屋顶变得更加整齐、光鲜，原本的生活痕迹却可能逐渐淡去。我用牙齿修饰作比喻：表面焕然一新，并不意味着下面的问题已经解决。\n\n通过丝网版画、绘画和装置，我关注城市呈现出的样子与其中承载的生活之间的距离。糖为模型城市覆上一层明亮、半透明的外壳，却也脆弱、容易融化。这层不稳定的表面，让看似完美、持久的城市形象变得易碎，也促使我追问：修复保留了什么，又遮住了什么？",
+      "statement": "This project began with my observations of Beijing hutongs, where renovated courtyards and grey tiled roofs can appear increasingly polished while traces of everyday life become less visible. I imagine this transformation through a dental metaphor: a smooth new surface does not necessarily resolve what lies beneath.\n\nThrough silkscreen prints, paintings, and an installation, I explore the gap between a city's appearance and the lives it holds. Sugar gives the model city a bright, translucent coating, but it is also fragile and prone to melting. Its unstable surface turns the promise of a lasting, perfected city into something vulnerable, inviting a closer look at what renovation preserves and what it covers over.",
       "featured": true,
       "size": "31.50 × 61.02 × 25.59 in",
       "sizeZh": "31.50 × 61.02 × 25.59 英寸"
@@ -152,7 +195,44 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
       "medium": "Wood, metal wire, expanding foam, clay, plaster bandages, spray paint and acrylic",
       "mediumZh": "木板、金属丝、发泡胶、黏土、石膏绷带、喷漆、丙烯",
       "heroImage": "images/works/march-1-0-20261019.webp",
-      "layoutPages": [{"src": "images/project-pages/marching-20261019-1.webp", "width": 2400, "height": 1200, "alt": "Marching in Place\nMarching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic\nThis installation work centers on “City Walk” and herd \nbehavior in urban environments, and consists of five groups \nof anthropomorphic leg sculptures. Wooden boards and \nwire form the armatures; expanding foam, clay, and plaster \nbandages are used to build the forms; and spray paint and \nacrylic paint are applied to treat the surface textures.\nThe repeated and similar leg forms symbolize increasingly \nhomogenized ways of walking and group behavior in the city. \nThe stretched and twisted limbs metaphorically suggest the \nindividual’s loss within a collective tide. When placed in urban \npublic space, these sculptures resemble a group of people \nmoving in a predetermined direction, as well as bodies driven \nby some invisible force."}, {"src": "images/project-pages/marching-20261019-2.webp", "width": 2400, "height": 1200, "alt": "Through the everyday act of walking, the work attempts to re-examine the tension between the individual and the group, and poses the following \nquestions: When we follow the footsteps of the crowd through the city, are we actively exploring, or are we repeating a route chosen by others? In \nthe process of continuously moving forward, do we still retain the capacity for independent judgment and for choosing our own direction?\n"}, {"src": "images/project-pages/marching-20261019-3.webp", "width": 2400, "height": 1200, "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"}, {"src": "images/project-pages/marching-20261019-4.webp", "width": 2400, "height": 1200, "alt": ""}, {"src": "images/project-pages/marching-20261019-5.webp", "width": 2400, "height": 1200, "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"}, {"src": "images/project-pages/marching-20261019-6.webp", "width": 2400, "height": 1200, "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"}],
+      "layoutPages": [
+        {
+          "src": "images/project-pages/marching-revised-20261019-1.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": "Marching in Place\nMarching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic\nMarching in Place grew from my observations of people\nfollowing social-media recommendations to visit the same\nplaces, walk similar routes, and take similar photographs. I\ntranslated these repeated actions into five groups of leg\nsculptures, shifting attention from individual faces to the\nmovements people share.\nThe elongated and twisted legs appear to stride forward, yet\nremain fixed in place. Their repeated forms suggest both the\nattraction of moving with others and the difficulty of choosing a\ndifferent direction. Placed in public space, the sculptures bring\nthis tension into contact with everyday pedestrians. Rather than\ntreating shared behaviour as simply a loss of individuality, I ask:\nhow much of our route through the city do we choose for\nourselves?\n"
+        },
+        {
+          "src": "images/project-pages/marching-revised-20261019-2.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": "The sculptures appear to move together while remaining rooted to the ground. Seen alongside passing pedestrians, they bring shared movement and\nindividual choice into the same space.\n"
+        },
+        {
+          "src": "images/project-pages/marching-revised-20261019-3.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+        },
+        {
+          "src": "images/project-pages/marching-revised-20261019-4.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": ""
+        },
+        {
+          "src": "images/project-pages/marching-revised-20261019-5.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+        },
+        {
+          "src": "images/project-pages/marching-revised-20261019-6.webp",
+          "width": 2400,
+          "height": 1200,
+          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+        }
+      ],
       "images": [
         "images/works/march-3-2-20261019.webp",
         "images/works/march-2-2-20261019.webp",
@@ -173,8 +253,8 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
         "images/works/march-6-3-20261019.webp",
         "images/works/march-6-4-20261019.webp"
       ],
-      "statementZh": "《Marching in Place》围绕城市中的“City Walk”与从众行为展开，由五组拟人化腿部雕塑组成。我用木板和金属丝搭建骨架，以发泡胶、黏土和石膏绷带塑形，再用喷漆和丙烯处理表面。\n\n重复、拉长和扭曲的腿部形态，表现城市中逐渐趋同的行走方式和群体行为，也暗示个体在群体潮流中的迷失。置于公共空间时，它们像沿着预定方向移动的人群，也像被无形力量推动的身体。当我们跟随人群穿过城市，是在主动探索，还是重复他人选好的路线？不断前进时，我们是否仍能判断并选择自己的方向？",
-      "statement": "Marching in Place explores “City Walk” and herd behaviour in urban environments through five groups of anthropomorphic leg sculptures. Wooden boards and wire form the armatures; expanding foam, clay, and plaster bandages build the forms; spray paint and acrylic create the surface textures.\n\nThe repeated, stretched, and twisted limbs suggest increasingly similar ways of walking and behaving in the city, and the individual’s loss within a collective tide. In public space, they resemble bodies moving in a predetermined direction, driven by an invisible force. When we follow the crowd, are we exploring for ourselves or repeating a route chosen by others? As we keep moving forward, can we still choose our own direction?",
+      "statementZh": "这件作品来自我对社交媒体打卡的观察：人们跟着推荐去相同的地点、走相似的路线、拍相似的照片。我将这些重复的行动转化为五组腿部雕塑，把注意力从每个人的面孔转向人们共有的动作。\n\n被拉长、扭曲的腿看似正在向前迈步，却始终停在原地。重复的形态既表现与他人同行的吸引力，也暗示选择不同方向时的困难。雕塑被放进公共空间，与真实的行人相遇。我不想简单地把共同的行为等同于失去自我，而是想问：我们穿行城市的路线，有多少是自己选择的？",
+      "statement": "Marching in Place grew from my observations of people following social-media recommendations to visit the same places, walk similar routes, and take similar photographs. I translated these repeated actions into five groups of leg sculptures, shifting attention from individual faces to the movements people share.\n\nThe elongated and twisted legs appear to stride forward, yet remain fixed in place. Their repeated forms suggest both the attraction of moving with others and the difficulty of choosing a different direction. Placed in public space, the sculptures bring this tension into contact with everyday pedestrians. Rather than treating shared behaviour as simply a loss of individuality, I ask: how much of our route through the city do we choose for ourselves?",
       "featured": true,
       "size": "Dimensions variable",
       "sizeZh": "尺寸可变"
