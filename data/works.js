@@ -151,10 +151,10 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
           "alt": "The City’s Dental Ailment — installation view 2"
         },
         {
-          "src": "images/project-pages/dental-no-labels-20261019-7.webp",
+          "src": "images/project-pages/dental-complete-ending-20261019-7.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "Through this series, I investigate the gap between\nrefined appearances and neglected everyday realities.\nThe work reflects how urban construction prioritizes\neye-catching facades while overlooking ordinary\nresidents’\n"
+          "alt": "Through this series, I investigate the gap between\nrefined appearances and neglected everyday realities.\nThe work reflects how urban construction prioritizes\neye-catching facades while overlooking ordinary\nresidents’ daily lives.\n"
         }
       ],
       "images": [
