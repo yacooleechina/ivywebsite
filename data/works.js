@@ -209,10 +209,10 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
           "alt": "The sculptures appear to move together while remaining rooted to the ground. Seen alongside passing pedestrians, they bring shared movement and\nindividual choice into the same space.\n"
         },
         {
-          "src": "images/project-pages/marching-revised-20261019-3.webp",
+          "src": "images/project-pages/marching-clean-labels-20261019-3.webp",
           "width": 2400,
           "height": 1200,
-          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+          "alt": "Marching in Place — installation views, page 3"
         },
         {
           "src": "images/project-pages/marching-revised-20261019-4.webp",
@@ -221,16 +221,16 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
           "alt": ""
         },
         {
-          "src": "images/project-pages/marching-revised-20261019-5.webp",
+          "src": "images/project-pages/marching-clean-labels-20261019-5.webp",
           "width": 2400,
           "height": 1200,
-          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+          "alt": "Marching in Place — installation views, page 5"
         },
         {
-          "src": "images/project-pages/marching-revised-20261019-6.webp",
+          "src": "images/project-pages/marching-clean-labels-20261019-6.webp",
           "width": 2400,
           "height": 1200,
-          "alt": "Marching in Place\ninstallation, size variable, 2026\nwire, foam rubber, foam clay, board, spray paint, acrylic"
+          "alt": "Marching in Place — installation views, page 6"
         }
       ],
       "images": [
