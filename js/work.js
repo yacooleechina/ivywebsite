@@ -110,6 +110,19 @@
 
     document.title = `${work.title} · Li Weiyi`;
 
+    // Preserve portfolio page layouts for projects that supply composed pages.
+    if (work.layoutPages?.length) {
+      const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      detail.innerHTML = `<article class="wd-portfolio" aria-label="${escape(work.title)}">
+        ${work.layoutPages.map((page, i) => `<figure class="wd-portfolio-page">
+          <a href="${page.src}" target="_blank" rel="noopener" aria-label="${escape(work.title)} — ${i + 1}">
+            <img src="${page.src}" width="${page.width}" height="${page.height}" alt="${escape(page.alt || work.title)}" loading="${i === 0 ? 'eager' : 'lazy'}" decoding="async">
+          </a>
+        </figure>`).join('')}
+      </article>`;
+      return;
+    }
+
     const galleryHtml = buildGallery(work);
     const heroImage = displayImageSrc(work.heroImage);
 
