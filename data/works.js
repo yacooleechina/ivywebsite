@@ -139,22 +139,22 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
           "alt": "80cm*100cm\nAcrylic on canva\n30cm*60cm\nAcrylic on wood\n30cm*30cm\nAcrylic on wood"
         },
         {
-          "src": "images/project-pages/dental-clean-labels-20261019-5.webp",
+          "src": "images/project-pages/dental-no-labels-20261019-5.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in"
+          "alt": "The City’s Dental Ailment — installation view 1"
         },
         {
-          "src": "images/project-pages/dental-clean-labels-20261019-6.webp",
+          "src": "images/project-pages/dental-no-labels-20261019-6.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in"
+          "alt": "The City’s Dental Ailment — installation view 2"
         },
         {
-          "src": "images/project-pages/dental-clean-labels-20261019-7.webp",
+          "src": "images/project-pages/dental-no-labels-20261019-7.webp",
           "width": 2400,
           "height": 1134,
-          "alt": "The City’s Dental Ailment\n2026\n31.50 × 61.02 × 25.59 in\nThe changing sugar surface holds the project’s central\ntension: a city can look renewed while the relationship\nbetween its appearance and everyday life remains\nunsettled.\n"
+          "alt": "Through this series, I investigate the gap between\nrefined appearances and neglected everyday realities.\nThe work reflects how urban construction prioritizes\neye-catching facades while overlooking ordinary\nresidents’\n"
         }
       ],
       "images": [
