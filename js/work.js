@@ -58,6 +58,8 @@
       return;
     }
 
+    if (work.id === 'observational-drawing') detail.classList.add('wd-observational');
+
     const galleryHtml = buildGallery(work);
     const heroImage = displayImageSrc(work.heroImage);
 

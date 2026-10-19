@@ -688,3 +688,20 @@ footer span {
   .wd-portfolio { padding: 72px 0 32px; }
   .wd-portfolio-page { margin-bottom: 12px; }
 }
+
+/* Observational studies: a wide opening work followed by paired studies. */
+.wd-observational { max-width: 1440px; margin: 0 auto; padding-top: 88px; }
+.wd-observational .wd-hero { padding: 0 48px; }
+.wd-observational .wd-hero-img { max-height: 58vh; }
+.wd-observational .wd-body { display: block; padding: 48px 48px 80px; }
+.wd-observational .wd-info { max-width: 860px; margin-bottom: 48px; }
+.wd-observational .wd-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; align-items: start; }
+.wd-observational .wd-fig { display: flex; align-items: center; justify-content: center; aspect-ratio: 0.81; }
+.wd-observational .wd-fig img { width: 100%; height: 100%; object-fit: contain; }
+@media (max-width: 768px) {
+  .wd-observational { padding-top: 72px; }
+  .wd-observational .wd-hero { padding: 0 16px; }
+  .wd-observational .wd-body { padding: 32px 16px 48px; }
+  .wd-observational .wd-info { margin-bottom: 32px; }
+  .wd-observational .wd-gallery { gap: 16px 12px; }
+}
