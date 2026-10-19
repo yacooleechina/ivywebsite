@@ -705,3 +705,6 @@ footer span {
   .wd-observational .wd-info { margin-bottom: 32px; }
   .wd-observational .wd-gallery { gap: 16px 12px; }
 }
+
+.wd-observational .wd-fig:first-child { grid-column: 1 / -1; aspect-ratio: auto; }
+.wd-observational .wd-fig:first-child img { height: auto; }

@@ -19,7 +19,9 @@
   // ── Gallery layout builder ────────────────────────────────────
   function buildGallery(work) {
     // The cover is already visible above; show every remaining image in order.
-    const imgs = [...new Set(work.images)].filter(img => img !== work.heroImage);
+    const imgs = work.id === 'observational-drawing'
+      ? [...new Set([work.heroImage, ...work.images])]
+      : [...new Set(work.images)].filter(img => img !== work.heroImage);
     if (!imgs.length) return '';
     return `<div class="wd-gallery">${imgs.map((img, i) =>
       `<figure class="wd-fig">
@@ -72,9 +74,9 @@
       : '';
 
     detail.innerHTML = `
-      <div class="wd-hero reveal">
+      ${work.id === 'observational-drawing' ? '' : `<div class="wd-hero reveal">
         <img class="wd-hero-img" src="${heroImage}" alt="${work.title}" decoding="async">
-      </div>
+      </div>`}
       <div class="wd-body">
         <div class="wd-info reveal">
           <span class="wd-num">
