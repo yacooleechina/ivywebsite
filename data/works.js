@@ -271,11 +271,10 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
       medium:     "Clay, mixed media, red velvet",
       mediumZh:   "粘土，混合媒介，红色天鹅绒",
 
-      heroImage:  "images/works/trapped-02.jpg",
+      heroImage:  "images/works/trapped-panorama-20261113.webp",
       images: [
-        "images/works/trapped-01.jpg",
+        "images/works/trapped-02.jpg",
         "images/works/trapped-03.jpg",
-        "images/works/trapped-04.jpg",
       ],
 
       statement: "This sculpture explores the appearance anxiety I experienced because of my teeth. The enlarged mouth becomes a space where discomfort, protection, and self-recognition coexist. The small faces inside suggest the different versions of myself shaped by shame, avoidance, and the desire to accept my own image.",
