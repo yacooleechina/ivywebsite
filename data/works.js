@@ -186,6 +186,8 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
 
     {
       "id": "close-quarters",
+      "detailStatement": "The body of work consists of paintings and installation pieces. My paintings depict crowded environments where people occupy the same tight space, standing physically close to one another, yet remain emotionally detached. They explore this paradox: bodily proximity alongside inner emotional isolation.\n\nMy installation uses human‑shaped figures printed from my original drawings. These figures are placed within enclosed acrylic compartments. Confined, crowded space distorts these forms. This transformation visualizes how compressed shared space can coexist with deep emotional alienation among individuals.",
+      "detailStatementZh": "这组作品由绘画和装置组成。我的绘画描绘拥挤的环境：人们挤在同一个狭小空间里，身体彼此靠近，情感上却保持疏离。作品探索了这种矛盾：身体距离很近，内心却依然孤独。\n\n我的装置使用由原创绘画印制而成的人形图像，将它们放入封闭的亚克力隔间中。狭窄、拥挤的空间使这些形象发生扭曲。这种变形呈现了被压缩的共享空间如何与人与人之间深刻的情感疏离同时存在。",
       "title": "Close Quarters",
       "titleZh": "Close Quarters",
       "year": 2026,

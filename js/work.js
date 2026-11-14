@@ -66,10 +66,12 @@
     const heroImage = displayImageSrc(work.heroImage);
 
     const fmt = s => s.replace(/\n\n/g, '<br><br>');
-    const statementHtml = work.statement
+    const statement = work.detailStatement ?? work.statement;
+    const statementZh = work.detailStatementZh ?? work.statementZh;
+    const statementHtml = statement
       ? `<blockquote class="wd-statement">
-          <span class="en">${fmt(work.statement)}</span>
-          <span class="zh">${fmt(work.statementZh || '')}</span>
+          <span class="en">${fmt(statement)}</span>
+          <span class="zh">${fmt(statementZh || '')}</span>
         </blockquote>`
       : '';
 
