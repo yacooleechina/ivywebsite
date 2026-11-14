@@ -62,6 +62,8 @@
 
     if (work.id === 'observational-drawing') detail.classList.add('wd-observational');
 
+    if (work.id === 'close-quarters') detail.classList.add('wd-close-quarters');
+
     const galleryHtml = buildGallery(work);
     const heroImage = displayImageSrc(work.heroImage);
 
@@ -81,6 +83,7 @@
       </div>`}
       <div class="wd-body">
         <div class="wd-info reveal">
+          <div class="wd-metadata">
           <span class="wd-num">
             <span class="en">${work.category}${work.year ? ` · ${work.year}` : ''}</span>
             <span class="zh">${work.categoryZh}${work.year ? ` · ${work.year}` : ''}</span>
@@ -97,6 +100,7 @@
             <span class="en">${work.size}</span>
             <span class="zh">${work.sizeZh || work.size}</span>
           </p>` : ''}
+          </div>
           ${statementHtml}
         </div>
         ${galleryHtml}

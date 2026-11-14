@@ -789,3 +789,14 @@ footer { padding-inline: var(--page-gutter); gap: 16px; flex-wrap: wrap; }
   .hero-content > *, .hero-photo-wrap, .hero-scroll { animation-delay: 0s; animation-duration: .6s; }
   .work-text, .reveal { transition-duration: .4s; }
 }
+
+/* Align Close Quarters statement and detail photograph below the metadata. */
+.wd-close-quarters .wd-info { display: contents; }
+.wd-close-quarters .wd-metadata { grid-column: 1 / -1; }
+.wd-close-quarters .wd-metadata .wd-medium:last-child { margin-bottom: 0; }
+.wd-close-quarters .wd-statement { grid-column: 1; align-self: start; }
+.wd-close-quarters .wd-gallery { grid-column: 2; align-self: start; }
+@media (max-width: 767px) {
+  .wd-close-quarters .wd-statement,
+  .wd-close-quarters .wd-gallery { grid-column: 1 / -1; }
+}
