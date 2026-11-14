@@ -185,6 +185,26 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
     },
 
     {
+      "id": "close-quarters",
+      "title": "Close Quarters",
+      "titleZh": "Close Quarters",
+      "year": 2026,
+      "category": "Mixed Media Installation",
+      "categoryZh": "综合材料装置",
+      "medium": "Acrylic, acrylic boxes, printed figures",
+      "mediumZh": "丙烯、亚克力盒、印刷人物图像",
+      "size": "78 × 59 × 19 in",
+      "sizeZh": "78 × 59 × 19 英寸",
+      "heroImage": "images/works/close-quarters-overview-20261115.webp",
+      "images": [
+        "images/works/close-quarters-details-20261115.webp"
+      ],
+      "statement": "This project draws inspiration from my observations inside subway spaces. I seek to examine the distortions shaped by physical space, physical closeness, and emotional distance between people amid urban development.",
+      "statementZh": "这件作品的灵感来自我对地铁空间的观察。我希望探索在城市发展过程中，空间的限制、身体之间的贴近与人与人之间的情感距离如何共同造成扭曲。",
+      "featured": true
+    },
+
+    {
       "id": "city-walk",
       "title": "Marching in Place",
       "titleZh": "Marching in Place",
