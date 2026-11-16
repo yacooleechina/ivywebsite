@@ -197,8 +197,9 @@ Through bodies, domestic spaces, urban structures, and repeated forms, she explo
       "mediumZh": "丙烯、亚克力盒、印刷人物图像",
       "size": "78 × 59 × 19 in",
       "sizeZh": "78 × 59 × 19 英寸",
-      "heroImage": "images/works/close-quarters-overview-20261115.webp",
+      "heroImage": "images/works/close-quarters-cover-20261116.webp",
       "images": [
+        "images/works/close-quarters-overview-20261115.webp",
         "images/works/close-quarters-details-20261115.webp"
       ],
       "statement": "This project draws inspiration from my observations inside subway spaces. I seek to examine the distortions shaped by physical space, physical closeness, and emotional distance between people amid urban development.",
